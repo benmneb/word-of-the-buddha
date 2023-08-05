@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
+import Link from 'next/link'
 import './globals.css'
 
 const font = Lemon({
@@ -47,7 +48,24 @@ export default function RootLayout({
 				<meta name="msapplication-TileColor" content="#cdb4db" />
 				<meta name="theme-color" content="#cdb4db" />
 			</head>
-			<body className={font.className}>{children}</body>
+			<body className={font.className}>
+				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
+					<div className="">
+						<Link href="/suffering">Suffering</Link>
+					</div>
+					<div className="">
+						<Link href="/cause">Cause</Link>
+					</div>
+					<div className="">
+						<Link href="/cessation">Cessation</Link>
+					</div>
+					<div className="">
+						<Link href="/the-way">The Way</Link>
+					</div>
+				</nav>
+				{children}
+				<footer className="bg-blue-900">this is the footer etc</footer>
+			</body>
 		</html>
 	)
 }
