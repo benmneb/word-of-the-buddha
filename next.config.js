@@ -1,12 +1,16 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {}
+const nextConfig = {
+	experimental: {
+		mdxRs: true,
+	},
+}
 
 const withPWA = require('next-pwa')({
 	dest: 'public',
 	disable: process.env.NODE_ENV === 'development',
 })
 
-module.exports = withPWA({
-	...nextConfig,
-})
+const withMDX = require('@next/mdx')()
+
+module.exports = withPWA(withMDX(nextConfig))
