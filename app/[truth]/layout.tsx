@@ -1,4 +1,6 @@
-import Link from 'next/link'
+import ElaborationTree from '@/app/[truth]/_components/elaboration-tree'
+import Explanation from '@/app/[truth]/_components/explanation'
+import { Truths } from '@/app/[truth]/_data/types'
 import { ReactNode } from 'react'
 
 export default function TruthLayout({
@@ -6,29 +8,19 @@ export default function TruthLayout({
 	params,
 }: {
 	children: ReactNode
-	params: { truth: string }
+	params: { truth: Truths }
 }) {
 	return (
 		<main className="bg-blue-400">
 			<section className="flex justify-between">
-				<article>The Noble Truth of {params.truth}</article>
-				<div>video!!1</div>
+				<article className="w-2/3">
+					<Explanation {...params} />
+				</article>
+				<div className="w-1/3">video!!1</div>
 			</section>
 			<section className="flex">
 				<nav className="bg-blue-600 w-2/3">
-					<ul>
-						<li>
-							<Link href={`/${params.truth}/khandas`}>Five khandas</Link>
-						</li>
-						<li>
-							<Link href={`/${params.truth}/three-characteristics`}>
-								Three characteristics
-							</Link>
-						</li>
-						<li>
-							<Link href={`/${params.truth}/samsara`}>Samsara</Link>
-						</li>
-					</ul>
+					<ElaborationTree {...params} />
 				</nav>
 				<aside className="w-1/3">{children}</aside>
 			</section>

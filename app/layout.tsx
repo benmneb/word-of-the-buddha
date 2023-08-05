@@ -54,7 +54,7 @@ export default function RootLayout({
 						<Link href="/suffering">Suffering</Link>
 					</div>
 					<div className="">
-						<Link href="/cause">Cause</Link>
+						<Link href="/origin">Origin</Link>
 					</div>
 					<div className="">
 						<Link href="/cessation">Cessation</Link>
