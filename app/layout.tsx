@@ -12,6 +12,7 @@ const font = Lemon({
 export const metadata: Metadata = {
 	title: 'Word of the Buddha',
 	description: 'TODO',
+	viewport: 'width=device-width, initial-scale=1.0',
 }
 
 export default function RootLayout({
@@ -21,6 +22,31 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<head>
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/apple-touch-icon.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="32x32"
+					href="/favicon-32x32.png"
+				/>
+				<link
+					rel="icon"
+					type="image/png"
+					sizes="16x16"
+					href="/favicon-16x16.png"
+				/>
+				<link rel="manifest" href="/manifest.json" />
+				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#cdb4db" />
+				<meta name="apple-mobile-web-app-title" content="Word of the Buddha" />
+				<meta name="application-name" content="Word of the Buddha" />
+				<meta name="msapplication-TileColor" content="#cdb4db" />
+				<meta name="theme-color" content="#cdb4db" />
+			</head>
 			<body className={font.className}>{children}</body>
 		</html>
 	)

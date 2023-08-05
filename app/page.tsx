@@ -1,3 +1,3 @@
 export default function Home() {
-	return <main className="">this is home!</main>
+	return <main className="text-lg">word of the Buddha</main>
 }
