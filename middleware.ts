@@ -1,7 +1,7 @@
 import type { NextRequest } from 'next/server'
 import { NextResponse } from 'next/server'
 
-import { i18n } from '@/i18n.config'
+import { i18n } from '@/i18n/config'
 import { match as matchLocale } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
 
@@ -13,7 +13,7 @@ function getLocale(request: NextRequest): string | undefined {
 	// Locales are readonly but request headers are type string
 	const locales = i18n.locales as unknown as string[]
 
-	// Use negotiator and intl-localematcher to get best locale
+	// Get the best locale
 	const languages = new Negotiator({ headers: negotiatorHeaders }).languages(
 		locales
 	)

@@ -1,6 +1,6 @@
 import LocaleSelector from '@/app/[lang]/_components/locale-selector'
-import { getDictionary } from '@/get-dictionary'
-import { Locale, i18n } from '@/i18n.config'
+import { Locale, i18n } from '@/i18n/config'
+import { getDictionary } from '@/i18n/get-dictionary'
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
 import Head from 'next/head'

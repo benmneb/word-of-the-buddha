@@ -1,6 +1,6 @@
 import Elaboration from '@/app/[lang]/[truth]/[elaboration]/_components/elaboration'
 import { ElaborationSubjects } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
-import { Locale } from '@/i18n.config'
+import { Locale } from '@/i18n/config'
 
 interface Props {
 	params: { elaboration: ElaborationSubjects; lang: Locale }

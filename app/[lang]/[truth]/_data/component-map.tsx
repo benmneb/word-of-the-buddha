@@ -3,7 +3,7 @@ import Suffering from '@/content/en/1-suffering/suffering.mdx'
 import Origin from '@/content/en/2-origin/origin.mdx'
 import DutchSuffering from '@/content/nl/1-suffering/suffering.mdx'
 import DutchOrigin from '@/content/nl/2-origin/origin.mdx'
-import { Locale } from '@/i18n.config'
+import { Locale } from '@/i18n/config'
 import { ReactNode } from 'react'
 
 const englishComponents: Record<Truths, ReactNode> = {

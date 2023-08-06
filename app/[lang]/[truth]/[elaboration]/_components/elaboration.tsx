@@ -1,6 +1,6 @@
 import { componentMap } from '@/app/[lang]/[truth]/[elaboration]/_data/component-map'
 import { ElaborationSubjects } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
-import { Locale, i18n } from '@/i18n.config'
+import { Locale, i18n } from '@/i18n/config'
 
 interface Props {
 	elaboration: ElaborationSubjects

@@ -1,4 +1,4 @@
-import { Locale } from '@/i18n.config'
+import { Locale } from '@/i18n/config'
 import 'server-only'
 
 const dictionaries: Record<Locale, () => Promise<any>> = {

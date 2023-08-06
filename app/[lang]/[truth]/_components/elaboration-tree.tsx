@@ -3,8 +3,8 @@ import {
 	elaborationTree,
 } from '@/app/[lang]/[truth]/_data/elaboration-tree'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
-import { getDictionary } from '@/get-dictionary'
-import { Locale } from '@/i18n.config'
+import { Locale } from '@/i18n/config'
+import { getDictionary } from '@/i18n/get-dictionary'
 import Link from 'next/link'
 
 interface Props {

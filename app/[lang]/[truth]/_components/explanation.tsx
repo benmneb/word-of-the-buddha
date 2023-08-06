@@ -1,6 +1,6 @@
 import { componentMap } from '@/app/[lang]/[truth]/_data/component-map'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
-import { Locale, i18n } from '@/i18n.config'
+import { Locale, i18n } from '@/i18n/config'
 
 interface Props {
 	truth: Truths

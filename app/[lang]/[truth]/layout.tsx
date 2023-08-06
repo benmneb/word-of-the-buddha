@@ -1,8 +1,8 @@
 import ElaborationTree from '@/app/[lang]/[truth]/_components/elaboration-tree'
 import Explanation from '@/app/[lang]/[truth]/_components/explanation'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
-import { getDictionary } from '@/get-dictionary'
-import { Locale } from '@/i18n.config'
+import { Locale } from '@/i18n/config'
+import { getDictionary } from '@/i18n/get-dictionary'
 import { ReactNode } from 'react'
 
 interface Props {
