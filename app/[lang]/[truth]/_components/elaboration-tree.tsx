@@ -1,8 +1,8 @@
 import {
 	TreeType,
 	elaborationTreeData,
-} from '@/app/[truth]/_data/elaboration-tree'
-import { Truths } from '@/app/[truth]/_data/types'
+} from '@/app/[lang]/[truth]/_data/elaboration-tree'
+import { Truths } from '@/app/[lang]/[truth]/_data/types'
 import Link from 'next/link'
 
 interface Props {

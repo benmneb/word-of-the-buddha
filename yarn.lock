@@ -1391,6 +1391,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formatjs/intl-localematcher@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@formatjs/intl-localematcher@npm:0.4.0"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: c65108e9a81c3733d2b6240ceedc846d0ae59c3606041cb5cc71c13453cdabe295b0dc8559dc4a8acaafdc45876807bd5e9ef37a3ec1cb864e78db655d434b66
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.10":
   version: 0.11.10
   resolution: "@humanwhocodes/config-array@npm:0.11.10"
@@ -1885,6 +1894,13 @@ __metadata:
   version: 0.7.31
   resolution: "@types/ms@npm:0.7.31"
   checksum: daadd354aedde024cce6f5aa873fefe7b71b22cd0e28632a69e8b677aeb48ae8caa1c60e5919bb781df040d116b01cb4316335167a3fc0ef6a63fa3614c0f6da
+  languageName: node
+  linkType: hard
+
+"@types/negotiator@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "@types/negotiator@npm:0.6.1"
+  checksum: e39f985874a30bd13186249eaaede0c5eec107178f55f2bd719c2c9d1397de329a5e0869a25dd5e7c702cdd311bd5e4153e25963900b4353545842354a2d1bc4
   languageName: node
   linkType: hard
 
@@ -7867,16 +7883,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "word-of-the-buddha@workspace:."
   dependencies:
+    "@formatjs/intl-localematcher": ^0.4.0
     "@mdx-js/loader": ^2.3.0
     "@mdx-js/react": ^2.3.0
     "@next/mdx": ^13.4.12
     "@types/mdx": ^2.0.5
+    "@types/negotiator": ^0.6.1
     "@types/node": 20.4.7
     "@types/react": 18.2.18
     "@types/react-dom": 18.2.7
     autoprefixer: 10.4.14
     eslint: 8.46.0
     eslint-config-next: 13.4.12
+    negotiator: ^0.6.3
     next: 13.4.12
     next-pwa: ^5.6.0
     postcss: 8.4.27

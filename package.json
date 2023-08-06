@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.0",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.4.12",
@@ -19,6 +20,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
+    "negotiator": "^0.6.3",
     "next": "13.4.12",
     "next-pwa": "^5.6.0",
     "postcss": "8.4.27",
@@ -27,5 +29,8 @@
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "@types/negotiator": "^0.6.1"
+  }
 }

@@ -1,3 +1,5 @@
+import LocaleSelector from '@/app/[lang]/_components/locale-selector'
+import { Locale, i18n } from '@/i18n.config'
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
 import Link from 'next/link'
@@ -16,13 +18,18 @@ export const metadata: Metadata = {
 	viewport: 'width=device-width, initial-scale=1.0',
 }
 
-export default function RootLayout({
-	children,
-}: {
+export async function generateStaticParams() {
+	return i18n.locales.map((locale) => ({ lang: locale }))
+}
+
+interface Props {
 	children: React.ReactNode
-}) {
+	params: { lang: Locale }
+}
+
+export default function RootLayout({ children, params }: Props) {
 	return (
-		<html lang="en">
+		<html lang={params.lang}>
 			<head>
 				<link
 					rel="apple-touch-icon"
@@ -64,7 +71,12 @@ export default function RootLayout({
 					</div>
 				</nav>
 				{children}
-				<footer className="bg-blue-900">this is the footer etc</footer>
+				<footer className="bg-blue-900 text-gray-200 w-full flex justify-between">
+					<section>credits etc</section>
+					<section>
+						<LocaleSelector />
+					</section>
+				</footer>
 			</body>
 		</html>
 	)

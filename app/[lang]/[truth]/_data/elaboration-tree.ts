@@ -1,15 +1,13 @@
 import {
 	OriginTreeType,
 	SufferingTreeType,
-} from '@/app/[truth]/[elaboration]/_data/types'
-import { Truths } from '@/app/[truth]/_data/types'
-import { ReactNode } from 'react'
+} from '@/app/[lang]/[truth]/[elaboration]/_data/types'
+import { Truths } from '@/app/[lang]/[truth]/_data/types'
 
 export interface TreeType {
 	text: string
 	root?: Truths
 	path: string
-	elaboration?: ReactNode // ?
 	children?: TreeType[]
 }
 
