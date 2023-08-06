@@ -57,6 +57,12 @@ export default async function RootLayout({ children, params }: Props) {
 				<meta name="application-name" content="Word of the Buddha" />
 				<meta name="msapplication-TileColor" content="#cdb4db" />
 				<meta name="theme-color" content="#cdb4db" />
+				<script
+					async
+					src="https://umamalytics.vercel.app/script.js"
+					data-website-id="8aa4e5c6-9b71-4c68-8da5-096daa3ea927"
+					data-domains="wordofthebuddha.com"
+				></script>
 			</head>
 			<body className={font.className}>
 				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
