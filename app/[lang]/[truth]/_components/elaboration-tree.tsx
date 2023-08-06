@@ -38,7 +38,7 @@ async function TreeList({ seed, truth, lang }: TreeListProps) {
 		return (
 			<>
 				<li key={path}>
-					<Link href={path}>{relevantText}</Link>
+					<Link href={`/${lang}/${path}`}>{relevantText}</Link>
 				</li>
 				{children && (
 					<ul className="ml-4">

@@ -52,9 +52,6 @@ export function middleware(request: NextRequest) {
 		(locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
 	)
 
-	// TODO: Keep the same locale unless they change it! - Need Jotai??
-	// console.log('pathnameIsMissingLocale', pathnameIsMissingLocale, pathname)
-
 	// Redirect if there is no locale
 	if (pathnameIsMissingLocale) {
 		const locale = getLocale(request)

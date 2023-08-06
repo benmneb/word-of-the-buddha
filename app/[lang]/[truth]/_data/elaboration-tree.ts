@@ -13,15 +13,15 @@ export interface TreeType {
 const sufferingTree: TreeType[] = [
 	{
 		i18nkey: 'fiveComponents',
-		path: `/${Truths['suffering']}/${SufferingTreeType['khandas']}`,
+		path: `${Truths['suffering']}/${SufferingTreeType['khandas']}`,
 		children: [
 			{
 				i18nkey: 'form',
-				path: `/${Truths['suffering']}/${SufferingTreeType['form']}`,
+				path: `${Truths['suffering']}/${SufferingTreeType['form']}`,
 			},
 			{
 				i18nkey: 'experience',
-				path: `/${Truths['suffering']}/${SufferingTreeType['experience']}`,
+				path: `${Truths['suffering']}/${SufferingTreeType['experience']}`,
 			},
 		],
 	},
@@ -30,11 +30,11 @@ const sufferingTree: TreeType[] = [
 const originTree: TreeType[] = [
 	{
 		i18nkey: 'origin',
-		path: `/${Truths['origin']}/${OriginTreeType['origin']}`,
+		path: `${Truths['origin']}/${OriginTreeType['origin']}`,
 	},
 	{
 		i18nkey: 'dependent-origination',
-		path: `/${Truths['origin']}/${OriginTreeType['dependent-origination']}`,
+		path: `${Truths['origin']}/${OriginTreeType['dependent-origination']}`,
 	},
 ]
 

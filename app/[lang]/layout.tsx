@@ -67,20 +67,22 @@ export default async function RootLayout({ children, params }: Props) {
 			<body className={font.className}>
 				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
 					<div className="">
-						<Link href="/suffering">
+						<Link href={`/${params.lang}/suffering`}>
 							{dictionary.truths.suffering.title.short}
 						</Link>
 					</div>
 					<div className="">
-						<Link href="/origin">{dictionary.truths.origin.title.short}</Link>
+						<Link href={`/${params.lang}/origin`}>
+							{dictionary.truths.origin.title.short}
+						</Link>
 					</div>
 					<div className="">
-						<Link href="/cessation">
+						<Link href={`/${params.lang}/cessation}`}>
 							{dictionary.truths.cessation.title.short}
 						</Link>
 					</div>
 					<div className="">
-						<Link href="/the-way">
+						<Link href={`/${params.lang}/the-way`}>
 							{dictionary.truths['the-way'].title.short}
 						</Link>
 					</div>
