@@ -32,7 +32,8 @@ async function TreeList({ seed, truth, lang }: TreeListProps) {
 	const dictionary = await getDictionary(lang)
 
 	return seed.map(({ i18nkey, path, children }) => {
-		const relevantText = dictionary[truth].elaborationTree[i18nkey]
+		// @ts-ignore: Allowing type inference is legit AF but Typescript also complains its too loose sometimes
+		const relevantText = dictionary.truths[truth].elaborationTree[i18nkey]
 
 		return (
 			<>
