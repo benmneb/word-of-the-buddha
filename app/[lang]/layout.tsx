@@ -3,7 +3,6 @@ import { Locale, i18n } from '@/i18n/config'
 import { getDictionary } from '@/i18n/get-dictionary'
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
-import Head from 'next/head'
 import Link from 'next/link'
 import './globals.css'
 
@@ -18,7 +17,6 @@ export const metadata: Metadata = {
 	title: 'Word of the Buddha',
 	description:
 		'An outline of the Teachings of the Buddha in the Words of the Pali Canon.',
-	viewport: 'width=device-width, initial-scale=1.0',
 }
 
 export async function generateStaticParams() {
@@ -35,7 +33,7 @@ export default async function RootLayout({ children, params }: Props) {
 
 	return (
 		<html lang={params.lang}>
-			<Head>
+			<head>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
@@ -59,7 +57,7 @@ export default async function RootLayout({ children, params }: Props) {
 				<meta name="application-name" content="Word of the Buddha" />
 				<meta name="msapplication-TileColor" content="#cdb4db" />
 				<meta name="theme-color" content="#cdb4db" />
-			</Head>
+			</head>
 			<body className={font.className}>
 				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
 					<div className="">
