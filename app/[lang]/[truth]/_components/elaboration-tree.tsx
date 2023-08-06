@@ -1,40 +1,47 @@
 import {
 	TreeType,
-	elaborationTreeData,
+	elaborationTree,
 } from '@/app/[lang]/[truth]/_data/elaboration-tree'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
+import { getDictionary } from '@/get-dictionary'
+import { Locale } from '@/i18n.config'
 import Link from 'next/link'
 
 interface Props {
 	truth: Truths
+	lang: Locale
 }
 
-export default function ElaborationTree({ truth }: Props) {
-	const appropriateData = elaborationTreeData?.[truth]
+export default function ElaborationTree(props: Props) {
+	const appropriateData = elaborationTree?.[props.truth]
 
 	if (!appropriateData) return 'throw WTF'
 
 	return (
 		<ul>
-			<TreeList seed={appropriateData} />
+			<TreeList seed={appropriateData} {...props} />
 		</ul>
 	)
 }
 
-interface TreeListProps {
+interface TreeListProps extends Props {
 	seed: TreeType[]
 }
 
-function TreeList({ seed }: TreeListProps) {
-	return seed.map(({ text, path, children }) => {
+async function TreeList({ seed, truth, lang }: TreeListProps) {
+	const dictionary = await getDictionary(lang)
+
+	return seed.map(({ i18nkey, path, children }) => {
+		const relevantText = dictionary[truth].elaborationTree[i18nkey]
+
 		return (
 			<>
 				<li key={path}>
-					<Link href={path}>{text}</Link>
+					<Link href={path}>{relevantText}</Link>
 				</li>
 				{children && (
 					<ul className="ml-4">
-						<TreeList seed={children} />
+						<TreeList seed={children} truth={truth} lang={lang} />
 					</ul>
 				)}
 			</>

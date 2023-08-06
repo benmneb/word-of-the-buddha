@@ -1,0 +1,43 @@
+{
+	"suffering": {
+		"title": {
+			"short": "Dutch! Suffering",
+			"long": "Dutch! The Noble Truth of Suffering"
+		},
+		"elaborationTree": {
+			"fiveComponents": "Dutch! Five Components",
+			"form": "Dutch! Form",
+			"experience": "Dutch! Experience"
+		}
+	},
+	"origin": {
+		"title": {
+			"short": "Dutch! Origin",
+			"long": "Dutch! The Noble Truth of the Origin of Suffering"
+		},
+		"elaborationTree": {
+			"origin": "Dutch! The Origin of Wanting",
+			"dependent-origination": "Dutch! Dependent Origination"
+		}
+	},
+	"cessation": {
+		"title": {
+			"short": "NL - Cessation",
+			"long": "The Dutch Truth of the Cessation of Suffering"
+		},
+		"elaborationTree": { "test": "mock" }
+	},
+	"the-way": {
+		"title": {
+			"short": "The Dutch Way",
+			"long": "The Dutch Truth of the Way Leading to the Cessation of Suffering"
+		},
+		"elaborationTree": { "test": "mock" }
+	},
+	"video": {
+		"watchVideo": "Watch NL video"
+	},
+	"footer": {
+		"changeLanguage": "Dutch language?"
+	}
+}

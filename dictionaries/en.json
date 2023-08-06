@@ -1,0 +1,44 @@
+{
+	"suffering": {
+		"title": {
+			"short": "Suffering",
+			"long": "The Noble Truth of Suffering"
+		},
+		"elaborationTree": {
+			"fiveComponents": "Five Components",
+			"form": "Form",
+			"experience": "Experience"
+		}
+	},
+	"origin": {
+		"title": {
+			"short": "Origin",
+			"long": "The Noble Truth of the Origin of Suffering"
+		},
+		"elaborationTree": {
+			"origin": "The Origin of Wanting",
+			"dependent-origination": "Dependent Origination"
+		}
+	},
+	"cessation": {
+		"title": {
+			"short": "Cessation",
+			"long": "The Noble Truth of the Cessation of Suffering"
+		},
+		"elaborationTree": { "test": "mock" }
+	},
+	"the-way": {
+		"title": {
+			"short": "The Way",
+			"long": "The Noble Truth of the Way Leading to the Cessation of Suffering"
+		},
+		"elaborationTree": { "test": "mock" }
+	},
+	"video": {
+		"watchVideo": "Watch video"
+	},
+	"footer": {
+		"attribution": "Based on... etc",
+		"changeLanguage": "Change language"
+	}
+}

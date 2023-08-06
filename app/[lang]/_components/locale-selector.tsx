@@ -4,7 +4,11 @@ import { i18n } from '@/i18n.config'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-export default function LocaleSelector() {
+interface Props {
+	text: string
+}
+
+export default function LocaleSelector({ text }: Props) {
 	const pathName = usePathname()
 
 	function redirectedPathName(locale: string) {
@@ -16,7 +20,7 @@ export default function LocaleSelector() {
 
 	return (
 		<div>
-			<p>Change language:</p>
+			<p>{text}</p>
 			<ul>
 				{i18n.locales.map((locale) => {
 					return (

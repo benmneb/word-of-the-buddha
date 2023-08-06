@@ -1,4 +1,5 @@
 import LocaleSelector from '@/app/[lang]/_components/locale-selector'
+import { getDictionary } from '@/get-dictionary'
 import { Locale, i18n } from '@/i18n.config'
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
@@ -29,7 +30,9 @@ interface Props {
 	params: { lang: Locale }
 }
 
-export default function RootLayout({ children, params }: Props) {
+export default async function RootLayout({ children, params }: Props) {
+	const dictionary = await getDictionary(params.lang)
+
 	return (
 		<html lang={params.lang}>
 			<Head>
@@ -60,23 +63,23 @@ export default function RootLayout({ children, params }: Props) {
 			<body className={font.className}>
 				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
 					<div className="">
-						<Link href="/suffering">Suffering</Link>
+						<Link href="/suffering">{dictionary.suffering.title.short}</Link>
 					</div>
 					<div className="">
-						<Link href="/origin">Origin</Link>
+						<Link href="/origin">{dictionary.origin.title.short}</Link>
 					</div>
 					<div className="">
-						<Link href="/cessation">Cessation</Link>
+						<Link href="/cessation">{dictionary.cessation.title.short}</Link>
 					</div>
 					<div className="">
-						<Link href="/the-way">The Way</Link>
+						<Link href="/the-way">{dictionary['the-way'].title.short}</Link>
 					</div>
 				</nav>
 				{children}
 				<footer className="bg-blue-900 text-gray-200 w-full flex justify-between">
-					<section>credits etc</section>
+					<section>{dictionary.footer.attribution}</section>
 					<section>
-						<LocaleSelector />
+						<LocaleSelector text={dictionary.footer.changeLanguage} />
 					</section>
 				</footer>
 			</body>

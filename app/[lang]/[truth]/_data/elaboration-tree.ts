@@ -5,23 +5,22 @@ import {
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
 
 export interface TreeType {
-	text: string
-	root?: Truths
+	i18nkey: string
 	path: string
 	children?: TreeType[]
 }
 
 const sufferingTree: TreeType[] = [
 	{
-		text: 'Five Components',
+		i18nkey: 'fiveComponents',
 		path: `/${Truths['suffering']}/${SufferingTreeType['khandas']}`,
 		children: [
 			{
-				text: 'Form',
+				i18nkey: 'form',
 				path: `/${Truths['suffering']}/${SufferingTreeType['form']}`,
 			},
 			{
-				text: 'Experience',
+				i18nkey: 'experience',
 				path: `/${Truths['suffering']}/${SufferingTreeType['experience']}`,
 			},
 		],
@@ -30,16 +29,16 @@ const sufferingTree: TreeType[] = [
 
 const originTree: TreeType[] = [
 	{
-		text: 'Origin of Wanting',
+		i18nkey: 'origin',
 		path: `/${Truths['origin']}/${OriginTreeType['origin']}`,
 	},
 	{
-		text: 'Dependent Origination',
+		i18nkey: 'dependent-origination',
 		path: `/${Truths['origin']}/${OriginTreeType['dependent-origination']}`,
 	},
 ]
 
-export const elaborationTreeData: Record<Truths, TreeType[]> = {
+export const elaborationTree: Record<Truths, TreeType[]> = {
 	suffering: sufferingTree,
 	origin: originTree,
 	cessation: sufferingTree,
