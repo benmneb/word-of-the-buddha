@@ -10,4 +10,9 @@ export enum OriginTreeType {
 	'dependent-origination' = 'dependent-origination',
 }
 
+export const ElaborationSubjects = {
+	...SufferingTreeType,
+	...OriginTreeType,
+}
+
 export type ElaborationSubjects = SufferingTreeType | OriginTreeType

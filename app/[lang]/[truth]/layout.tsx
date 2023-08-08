@@ -10,6 +10,10 @@ interface Props {
 	params: { truth: Truths; lang: Locale }
 }
 
+export async function generateStaticParams({ params: { lang } }: Props) {
+	return Object.keys(Truths).map((truth) => ({ truth, lang }))
+}
+
 export default async function TruthLayout({ children, params }: Props) {
 	const dictionary = await getDictionary(params.lang)
 
