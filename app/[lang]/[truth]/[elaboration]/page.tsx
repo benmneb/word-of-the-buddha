@@ -1,13 +1,17 @@
 import Elaboration from '@/app/[lang]/[truth]/[elaboration]/_components/elaboration'
-import { ElaborationSubjects } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
+import {
+	ElaborationSubjects,
+	ElaborationSubjectsMap,
+} from '@/app/[lang]/[truth]/[elaboration]/_data/types'
+import { Truths } from '@/app/[lang]/[truth]/_data/types'
 import { Locale } from '@/i18n/config'
 
 interface Props {
-	params: { elaboration: ElaborationSubjects; lang: Locale }
+	params: { elaboration: ElaborationSubjects; lang: Locale; truth: Truths }
 }
 
-export async function generateStaticParams({ params: { lang } }: Props) {
-	return Object.keys(ElaborationSubjects).map((elaboration) => ({
+export async function generateStaticParams({ params: { lang, truth } }: Props) {
+	return Object.keys(ElaborationSubjectsMap[truth]).map((elaboration) => ({
 		elaboration,
 		lang,
 	}))
