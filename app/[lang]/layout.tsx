@@ -77,7 +77,7 @@ export default async function RootLayout({ children, params }: Props) {
 						</Link>
 					</div>
 					<div className="">
-						<Link href={`/${params.lang}/cessation}`}>
+						<Link href={`/${params.lang}/cessation`}>
 							{dictionary.truths.cessation.title.short}
 						</Link>
 					</div>
