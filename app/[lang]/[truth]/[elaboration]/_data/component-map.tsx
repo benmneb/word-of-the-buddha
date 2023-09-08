@@ -73,7 +73,7 @@ const dutchComponents: Partial<Record<ElaborationSubjects, JSX.Element>> = {
 
 export const componentMap: Record<
 	Locale,
-	Record<ElaborationSubjects, JSX.Element>
+	Partial<Record<ElaborationSubjects, JSX.Element>>
 > = {
 	en: englishComponents,
 	nl: dutchComponents,
