@@ -4,12 +4,21 @@ export enum SufferingTreeType {
 	khandas = 'khandas',
 	form = 'form',
 	experience = 'experience',
-	'three-characteristics' = 'three-characteristics',
+	perception = 'perception',
+	will = 'will',
+	consciousnesses = 'consciousnesses',
+	dependent_origination_of_consciousnesses = 'dependent-origination-of-consciousnesses',
+	sankhara = 'sankhara',
+	dependency_of_consciousnesses = 'dependency-of-consciousnesses',
+	three_characteristics = 'three-characteristics',
+	anatta = 'anatta',
+	three_warnings = 'three-warnings',
+	samsara = 'samsara',
 }
 
 export enum OriginTreeType {
 	origin = 'origin',
-	'dependent-origination' = 'dependent-origination',
+	dependent_origination = 'dependent-origination',
 }
 
 type ElaborationTypes = typeof SufferingTreeType | typeof OriginTreeType

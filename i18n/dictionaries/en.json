@@ -6,9 +6,19 @@
 				"long": "The Noble Truth of Suffering"
 			},
 			"elaborationTree": {
-				"fiveComponents": "Five Components",
-				"form": "Form",
-				"experience": "Experience"
+				"fiveComponents": "The Five Components of Existence (The Khandha)",
+				"form": "The Form (Body) Component of Existence",
+				"experience": "The Experience (Vedanā) Component of Existence",
+				"perception": "The Perception Component of Existence",
+				"will": "The Will (and the result of willing) Component of Existence",
+				"consciousnesses": "The Consciousnesses Component of Existence",
+				"dOConsciousnesses": "Dependent Origination of Consciousnesses",
+				"sankhara": "Sankharā",
+				"dependencyOfConsciousnesses": "Dependency of Consciousnesses",
+				"threeCharacteristics": "The Three Characteristics of Existence",
+				"anatta": "The Anattā Doctrine",
+				"threeWarnings": "The Three Warnings",
+				"samsara": "Samsāra"
 			}
 		},
 		"origin": {
