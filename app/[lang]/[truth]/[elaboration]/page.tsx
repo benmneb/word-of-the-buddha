@@ -1,4 +1,5 @@
 import Elaboration from '@/app/[lang]/[truth]/[elaboration]/_components/elaboration'
+import ElaborationWrapper from '@/app/[lang]/[truth]/[elaboration]/_components/wrapper'
 import {
 	ElaborationSubjects,
 	ElaborationSubjectsMap,
@@ -19,10 +20,8 @@ export async function generateStaticParams({ params: { lang, truth } }: Props) {
 
 export default function ElaborationPage({ params }: Props) {
 	return (
-		<section className="bg-violet-300 h-full">
-			<article className="">
-				<Elaboration {...params} />
-			</article>
-		</section>
+		<ElaborationWrapper>
+			<Elaboration {...params} />
+		</ElaborationWrapper>
 	)
 }
