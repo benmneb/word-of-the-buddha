@@ -1,26 +1,25 @@
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
-import Suffering from '@/content/1-suffering/suffering.en.mdx'
-import DutchSuffering from '@/content/1-suffering/suffering.nl.mdx'
-import Origin from '@/content/2-origin/origin.en.mdx'
-import DutchOrigin from '@/content/2-origin/origin.nl.mdx'
+import Suffering from '@/content/1-suffering/index.en.mdx'
+import DutchSuffering from '@/content/1-suffering/index.nl.mdx'
+import Origin from '@/content/2-origin/index.en.mdx'
+import DutchOrigin from '@/content/2-origin/index.nl.mdx'
 import { Locale } from '@/i18n/config'
-import { ReactNode } from 'react'
 
-const englishComponents: Record<Truths, ReactNode> = {
+const englishComponents: Record<Truths, JSX.Element> = {
 	[Truths['suffering']]: <Suffering />,
 	[Truths['origin']]: <Origin />,
 	[Truths['cessation']]: <Origin />,
 	[Truths['the-way']]: <Origin />,
 }
 
-const dutchComponents: Record<Truths, ReactNode> = {
+const dutchComponents: Record<Truths, JSX.Element> = {
 	[Truths['suffering']]: <DutchSuffering />,
 	[Truths['origin']]: <DutchOrigin />,
 	[Truths['cessation']]: <DutchOrigin />,
 	[Truths['the-way']]: <DutchOrigin />,
 }
 
-export const componentMap: Record<Locale, Record<Truths, ReactNode>> = {
+export const componentMap: Record<Locale, Record<Truths, JSX.Element>> = {
 	en: englishComponents,
 	nl: dutchComponents,
 }
