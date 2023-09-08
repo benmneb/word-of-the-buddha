@@ -1,8 +1,8 @@
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
-import Suffering from '@/content/en/1-suffering/suffering.mdx'
-import Origin from '@/content/en/2-origin/origin.mdx'
-import DutchSuffering from '@/content/nl/1-suffering/suffering.mdx'
-import DutchOrigin from '@/content/nl/2-origin/origin.mdx'
+import Suffering from '@/content/1-suffering/suffering.en.mdx'
+import DutchSuffering from '@/content/1-suffering/suffering.nl.mdx'
+import Origin from '@/content/2-origin/origin.en.mdx'
+import DutchOrigin from '@/content/2-origin/origin.nl.mdx'
 import { Locale } from '@/i18n/config'
 import { ReactNode } from 'react'
 
