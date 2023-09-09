@@ -1,18 +1,14 @@
-import {
-	TreeType,
-	elaborationTree,
-} from '@/app/[lang]/[truth]/_data/elaboration-tree'
+import TreeList from '@/app/[lang]/[truth]/_components/tree-list'
+import { elaborationTree } from '@/app/[lang]/[truth]/_data/elaboration-tree'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
 import { Locale } from '@/i18n/config'
-import { getDictionary } from '@/i18n/get-dictionary'
-import Link from 'next/link'
 
-interface Props {
+export interface ElaborationTreeProps {
 	truth: Truths
 	lang: Locale
 }
 
-export default function ElaborationTree(props: Props) {
+export default function ElaborationTree(props: ElaborationTreeProps) {
 	const appropriateData = elaborationTree?.[props.truth]
 
 	if (!appropriateData) return 'throw WTF'
@@ -22,30 +18,4 @@ export default function ElaborationTree(props: Props) {
 			<TreeList seed={appropriateData} {...props} />
 		</ul>
 	)
-}
-
-interface TreeListProps extends Props {
-	seed: TreeType[]
-}
-
-async function TreeList({ seed, truth, lang }: TreeListProps) {
-	const dictionary = await getDictionary(lang)
-
-	return seed.map(({ i18nkey, path, children }) => {
-		// @ts-ignore: Allowing type inference is legit AF but Typescript also complains its too loose sometimes
-		const relevantText = dictionary.truths[truth].elaborationTree[i18nkey]
-
-		return (
-			<>
-				<li key={path}>
-					<Link href={`/${lang}/${path}`}>{relevantText}</Link>
-				</li>
-				{children && (
-					<ul className="ml-4">
-						<TreeList seed={children} truth={truth} lang={lang} />
-					</ul>
-				)}
-			</>
-		)
-	})
 }
