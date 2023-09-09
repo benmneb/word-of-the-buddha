@@ -18,15 +18,15 @@ export default async function TruthLayout({ children, params }: Props) {
 	const dictionary = await getDictionary(params.lang)
 
 	return (
-		<main className="bg-blue-400">
+		<main className="bg-blue-400 flex flex-col flex-grow">
 			<section className="flex justify-between">
 				<article className="w-2/3">
 					<Explanation {...params} />
 				</article>
 				<div className="w-1/3">{dictionary.video.watchVideo}</div>
 			</section>
-			<section className="flex">
-				<nav className="bg-blue-600 w-2/3 p-4">
+			<section className="flex flex-grow">
+				<nav className="bg-blue-600 w-2/3 p-4 block">
 					<ElaborationTree {...params} />
 				</nav>
 				<aside className="w-1/3">{children}</aside>

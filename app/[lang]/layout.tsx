@@ -64,7 +64,7 @@ export default async function RootLayout({ children, params }: Props) {
 					data-domains="wordofthebuddha.com"
 				></script>
 			</head>
-			<body className={font.className}>
+			<body className={`${font.className} min-h-screen flex flex-col`}>
 				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
 					<div className="">
 						<Link href={`/${params.lang}/suffering`}>

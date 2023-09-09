@@ -14,7 +14,7 @@ export default function ElaborationTree(props: ElaborationTreeProps) {
 	if (!appropriateData) return 'throw WTF'
 
 	return (
-		<ul>
+		<ul className="sticky top-4">
 			<TreeList seed={appropriateData} {...props} />
 		</ul>
 	)
