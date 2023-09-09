@@ -1,6 +1,7 @@
 'use client'
 
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
+import { colours } from '@/app/[lang]/_styles/colours'
 import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { CSSProperties, PropsWithChildren } from 'react'
@@ -30,14 +31,6 @@ const inactiveBorderRadiuses: Record<
 	[Truths['the-way']]: {
 		[Truths.cessation]: '0px 0px 0px 24px',
 	},
-}
-
-// TODO: Update to what's in Figma and use globally (via custom Tailwind config?)
-const colours: Record<Truths, string> = {
-	[Truths.suffering]: 'rgb(216, 180, 254)', // 'bg-purple-300'
-	[Truths.origin]: 'rgb(165 180 252)', // 'bg-indigo-300'
-	[Truths.cessation]: 'rgb(196 181 253)', // 'bg-violet-300'
-	[Truths['the-way']]: 'rgb(147 197 253)', // 'bg-blue-300'
 }
 
 const activeBackgroundColours: Record<

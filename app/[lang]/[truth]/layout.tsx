@@ -1,6 +1,7 @@
 import ElaborationTree from '@/app/[lang]/[truth]/_components/elaboration-tree'
 import Explanation from '@/app/[lang]/[truth]/_components/explanation'
 import { Truths } from '@/app/[lang]/[truth]/_data/types'
+import { colours } from '@/app/[lang]/_styles/colours'
 import { Locale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/get-dictionary'
 import { ReactNode } from 'react'
@@ -18,7 +19,10 @@ export default async function TruthLayout({ children, params }: Props) {
 	const dictionary = await getDictionary(params.lang)
 
 	return (
-		<main className="bg-blue-400 flex flex-col flex-grow">
+		<main
+			className="flex flex-col flex-grow"
+			style={{ backgroundColor: colours[params.truth] }}
+		>
 			<section className="flex justify-between">
 				<article className="w-2/3">
 					<Explanation {...params} />
