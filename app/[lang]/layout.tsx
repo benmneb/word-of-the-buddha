@@ -1,9 +1,10 @@
 import LocaleSelector from '@/app/[lang]/_components/locale-selector'
+import TruthsNav from '@/app/[lang]/_components/truths-nav'
 import { Locale, i18n } from '@/i18n/config'
 import { getDictionary } from '@/i18n/get-dictionary'
 import type { Metadata } from 'next'
 import { Lemon } from 'next/font/google'
-import Link from 'next/link'
+import { PropsWithChildren } from 'react'
 import './globals.css'
 
 const font = Lemon({
@@ -23,8 +24,7 @@ export async function generateStaticParams() {
 	return i18n.locales.map((locale) => ({ lang: locale }))
 }
 
-interface Props {
-	children: React.ReactNode
+interface Props extends PropsWithChildren {
 	params: { lang: Locale }
 }
 
@@ -65,28 +65,7 @@ export default async function RootLayout({ children, params }: Props) {
 				></script>
 			</head>
 			<body className={`${font.className} min-h-screen flex flex-col`}>
-				<nav className="text-lg bg-purple-400 flex h-24 gap-4">
-					<div className="">
-						<Link href={`/${params.lang}/suffering`}>
-							{dictionary.truths.suffering.title.short}
-						</Link>
-					</div>
-					<div className="">
-						<Link href={`/${params.lang}/origin`}>
-							{dictionary.truths.origin.title.short}
-						</Link>
-					</div>
-					<div className="">
-						<Link href={`/${params.lang}/cessation`}>
-							{dictionary.truths.cessation.title.short}
-						</Link>
-					</div>
-					<div className="">
-						<Link href={`/${params.lang}/the-way`}>
-							{dictionary.truths['the-way'].title.short}
-						</Link>
-					</div>
-				</nav>
+				<TruthsNav params={params} />
 				{children}
 				<footer className="bg-blue-900 text-gray-200 w-full flex justify-between">
 					<section>{dictionary.footer.attribution}</section>
