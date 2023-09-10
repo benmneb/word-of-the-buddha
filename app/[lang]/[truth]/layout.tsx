@@ -24,16 +24,16 @@ export default async function TruthLayout({ children, params }: Props) {
 			style={{ backgroundColor: colours[params.truth] }}
 		>
 			<section className="flex justify-between">
-				<article className="w-2/3">
+				<article className="ml-4 mt-3 w-2/3 p-4 pb-2 max-w-prose">
 					<Explanation {...params} />
 				</article>
 				<div className="w-1/3">{dictionary.video.watchVideo}</div>
 			</section>
 			<section className="flex flex-grow">
-				<nav className="bg-blue-600 w-2/3 p-4 block">
+				<nav className="bg-blue-600 w-[60%] p-4 pl-8 block rounded-tr-3xl">
 					<ElaborationTree {...params} />
 				</nav>
-				<aside className="w-1/3">{children}</aside>
+				<aside className="w-[40%]">{children}</aside>
 			</section>
 		</main>
 	)

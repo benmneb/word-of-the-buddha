@@ -28,7 +28,7 @@ export default function TreeListItemContentWrapper({
 				{pathname === url && (
 					<motion.span
 						layoutId="active-item"
-						className="absolute inset-0 pl-16 -left-16 -right-2 bg-red-200 z-0"
+						className="absolute inset-0 pl-24 -left-24 -right-2 bg-red-200 z-0"
 						style={{
 							borderTopRightRadius: 100,
 							borderBottomRightRadius: 100,
