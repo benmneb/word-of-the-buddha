@@ -40,7 +40,11 @@
 		"watchVideo": "Watch NL video"
 	},
 	"footer": {
-		"attribution": "NL written by etc...",
+		"attribution": {
+			"nyantiloka": "This is a living document based on Nyanatiloka Mahāthera’s booklet ‘Word of the Buddha’.",
+			"bodhi": "Updated with translations from Bhikkhu Bodhi.",
+			"brahm": "Last edited by Ajahn Brahm on 25/06/2023."
+		},
 		"changeLanguage": "Dutch language?"
 	}
 }

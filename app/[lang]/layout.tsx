@@ -1,8 +1,7 @@
-import LocaleSelector from '@/app/[lang]/_components/locale-selector'
+import Footer from '@/app/[lang]/_components/footer'
 import TruthsNav from '@/app/[lang]/_components/truths-nav'
 import { fasthand, lemon, nunito } from '@/app/[lang]/_styles/fonts'
 import { Locale, i18n } from '@/i18n/config'
-import { getDictionary } from '@/i18n/get-dictionary'
 import type { Metadata } from 'next'
 import { PropsWithChildren } from 'react'
 import './globals.css'
@@ -21,9 +20,7 @@ interface Props extends PropsWithChildren {
 	params: { lang: Locale }
 }
 
-export default async function RootLayout({ children, params }: Props) {
-	const dictionary = await getDictionary(params.lang)
-
+export default function RootLayout({ children, params }: Props) {
 	return (
 		<html
 			lang={params.lang}
@@ -63,12 +60,7 @@ export default async function RootLayout({ children, params }: Props) {
 			<body className={`font-nunito min-h-screen flex flex-col`}>
 				<TruthsNav params={params} />
 				{children}
-				<footer className="bg-footer text-gray-200 w-full flex justify-between">
-					<section>{dictionary.footer.attribution}</section>
-					<section>
-						<LocaleSelector text={dictionary.footer.changeLanguage} />
-					</section>
-				</footer>
+				<Footer lang={params.lang} />
 			</body>
 		</html>
 	)
