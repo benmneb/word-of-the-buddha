@@ -30,7 +30,7 @@ export default async function TruthLayout({ children, params }: Props) {
 				<div className="w-1/3">{dictionary.video.watchVideo}</div>
 			</section>
 			<section className="flex flex-grow">
-				<nav className="bg-blue-600 w-[60%] p-4 pl-8 block rounded-tr-3xl">
+				<nav className="bg-tree w-[60%] p-4 pl-8 block rounded-tr-3xl">
 					<ElaborationTree {...params} />
 				</nav>
 				<aside className="w-[40%]">{children}</aside>

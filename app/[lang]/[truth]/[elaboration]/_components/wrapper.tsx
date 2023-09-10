@@ -10,12 +10,12 @@ interface Props {
 export default function ElaborationWrapper({ children }: Props) {
 	return (
 		<motion.section
-			className="bg-violet-300 h-full rounded-tl-3xl"
+			className="bg-elaboration h-full rounded-tl-3xl"
 			initial={{ opacity: 0, x: 150 }}
 			animate={{ opacity: 1, x: 0 }}
 			exit={{ opacity: 0, x: 150 }}
 		>
-			<article className="p-4">{children}</article>
+			<article className="p-4 text-tree">{children}</article>
 		</motion.section>
 	)
 }

@@ -21,14 +21,23 @@ export default function TreeListItemContentWrapper({
 	children,
 }: TreeListItemWrapperProps) {
 	const pathname = usePathname()
+	const isActive = pathname === url
 
 	return (
-		<motion.div key={path} initial={false} variants={item}>
+		<motion.div
+			key={path}
+			initial={false}
+			variants={item}
+			animate={{
+				color: isActive ? '#4F518C' : '#FFF', // bg-tree
+				transition: { delay: isActive ? 0.15 : 0 },
+			}}
+		>
 			<Link href={url} className="relative py-2 pr-2">
-				{pathname === url && (
+				{isActive && (
 					<motion.span
 						layoutId="active-item"
-						className="absolute inset-0 pl-24 -left-24 -right-2 bg-red-200 z-0"
+						className="absolute inset-0 pl-24 -left-24 -right-2 bg-treeHighlight z-0"
 						style={{
 							borderTopRightRadius: 100,
 							borderBottomRightRadius: 100,

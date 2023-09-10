@@ -63,7 +63,7 @@ export default async function RootLayout({ children, params }: Props) {
 			<body className={`font-nunito min-h-screen flex flex-col`}>
 				<TruthsNav params={params} />
 				{children}
-				<footer className="bg-blue-900 text-gray-200 w-full flex justify-between">
+				<footer className="bg-footer text-gray-200 w-full flex justify-between">
 					<section>{dictionary.footer.attribution}</section>
 					<section>
 						<LocaleSelector text={dictionary.footer.changeLanguage} />
