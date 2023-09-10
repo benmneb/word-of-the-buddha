@@ -1,18 +1,11 @@
 import LocaleSelector from '@/app/[lang]/_components/locale-selector'
 import TruthsNav from '@/app/[lang]/_components/truths-nav'
+import { fasthand, lemon, nunito } from '@/app/[lang]/_styles/fonts'
 import { Locale, i18n } from '@/i18n/config'
 import { getDictionary } from '@/i18n/get-dictionary'
 import type { Metadata } from 'next'
-import { Lemon } from 'next/font/google'
 import { PropsWithChildren } from 'react'
 import './globals.css'
-
-const font = Lemon({
-	weight: '400',
-	display: 'swap',
-	preload: true,
-	subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
 	title: 'Word of the Buddha',
@@ -32,7 +25,10 @@ export default async function RootLayout({ children, params }: Props) {
 	const dictionary = await getDictionary(params.lang)
 
 	return (
-		<html lang={params.lang}>
+		<html
+			lang={params.lang}
+			className={`${nunito.variable} ${lemon.variable} ${fasthand.variable}`}
+		>
 			<head>
 				<link
 					rel="apple-touch-icon"
@@ -64,7 +60,7 @@ export default async function RootLayout({ children, params }: Props) {
 					data-domains="wordofthebuddha.com"
 				></script>
 			</head>
-			<body className={`${font.className} min-h-screen flex flex-col`}>
+			<body className={`font-nunito min-h-screen flex flex-col`}>
 				<TruthsNav params={params} />
 				{children}
 				<footer className="bg-blue-900 text-gray-200 w-full flex justify-between">

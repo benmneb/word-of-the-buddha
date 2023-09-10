@@ -9,7 +9,7 @@ interface Props {
 
 export default function TruthsNav({ params }: Props) {
 	return (
-		<nav className="text-lg bg-purple-400 flex justify-evenly h-36">
+		<nav className="text-lg bg-purple-400 flex justify-evenly h-36 font-lemon">
 			{Object.values(Truths).map((truth) => (
 				<TruthsNavItemWrapper key={truth} truth={truth}>
 					<TruthsNavItem lang={params.lang} truth={truth} />
