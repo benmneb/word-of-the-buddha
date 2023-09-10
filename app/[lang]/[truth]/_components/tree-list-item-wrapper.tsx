@@ -14,7 +14,7 @@ const item = {
 
 export default function TreeListItemWrapper({ url, children }: TestProps) {
 	return (
-		<motion.li key={url} variants={item}>
+		<motion.li key={url} variants={item} className="my-3">
 			{children}
 		</motion.li>
 	)

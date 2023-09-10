@@ -23,7 +23,7 @@ export default async function TreeList({ seed, truth, lang }: TreeListProps) {
 					<span className="relative z-10">{relevantText}</span>
 				</TreeListItemContentWrapper>
 				{children && (
-					<TreeListWrapper className="ml-4">
+					<TreeListWrapper className="ml-6">
 						<TreeList seed={children} truth={truth} lang={lang} />
 					</TreeListWrapper>
 				)}

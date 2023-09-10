@@ -23,23 +23,16 @@ export default function TreeListItemContentWrapper({
 	const pathname = usePathname()
 
 	return (
-		<motion.div
-			key={path}
-			className="my-1"
-			initial={false}
-			variants={item}
-			animate={{
-				// TODO: How to use Tailwind values outside of classes?
-				marginTop: pathname === url ? '0.5rem' : '0rem',
-				marginBottom: pathname === url ? '0.5rem' : '0rem',
-			}}
-			transition={{ duration: 0.3 }}
-		>
-			<Link href={url} className="relative p-2">
+		<motion.div key={path} initial={false} variants={item}>
+			<Link href={url} className="relative py-2 pr-2">
 				{pathname === url && (
 					<motion.span
 						layoutId="active-item"
-						className="absolute inset-0 pl-16 -left-16 -right-2 rounded-r-full bg-red-200 z-0"
+						className="absolute inset-0 pl-16 -left-16 -right-2 bg-red-200 z-0"
+						style={{
+							borderTopRightRadius: 100,
+							borderBottomRightRadius: 100,
+						}}
 					/>
 				)}
 				{children}
