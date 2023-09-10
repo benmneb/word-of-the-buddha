@@ -1,5 +1,7 @@
 import { ElaborationTreeProps } from '@/app/[lang]/[truth]/_components/elaboration-tree'
+import TreeListItemContentWrapper from '@/app/[lang]/[truth]/_components/tree-list-item-content-wrapper'
 import TreeListItemWrapper from '@/app/[lang]/[truth]/_components/tree-list-item-wrapper'
+import TreeListWrapper from '@/app/[lang]/[truth]/_components/tree-list-wrapper'
 import { TreeType } from '@/app/[lang]/[truth]/_data/elaboration-tree'
 import { getDictionary } from '@/i18n/get-dictionary'
 
@@ -16,16 +18,16 @@ export default async function TreeList({ seed, truth, lang }: TreeListProps) {
 		const url = `/${lang}/${path}`
 
 		return (
-			<>
-				<TreeListItemWrapper path={path} url={url}>
+			<TreeListItemWrapper key={url} url={url}>
+				<TreeListItemContentWrapper path={path} url={url}>
 					<span className="relative z-10">{relevantText}</span>
-				</TreeListItemWrapper>
+				</TreeListItemContentWrapper>
 				{children && (
-					<ul className="ml-4">
+					<TreeListWrapper className="ml-4">
 						<TreeList seed={children} truth={truth} lang={lang} />
-					</ul>
+					</TreeListWrapper>
 				)}
-			</>
+			</TreeListItemWrapper>
 		)
 	})
 }
