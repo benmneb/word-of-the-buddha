@@ -28,7 +28,12 @@
 			},
 			"elaborationTree": {
 				"origin": "The Origin of Wanting",
-				"dependent-origination": "Dependent Origination"
+				"dependentOrigination": "Dependent Origination",
+				"kamma": "Kamma",
+				"presentKamma": "Present Kamma - Result (Sanditthika)",
+				"futureKamma": "Future Kamma - Result (Samparāyika)",
+				"kammaAsVolition": "Kamma as Volition",
+				"inheritanceOfDeeds": "Inheritance of Deeds"
 			}
 		},
 		"cessation": {

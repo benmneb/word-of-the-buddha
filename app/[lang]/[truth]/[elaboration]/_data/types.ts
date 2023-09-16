@@ -19,6 +19,11 @@ export enum SufferingTreeType {
 export enum OriginTreeType {
 	origin = 'origin',
 	dependent_origination = 'dependent-origination',
+	kamma = 'kamma',
+	present_kamma = 'present-kamma',
+	future_kamma = 'future-kamma',
+	kamma_as_volition = 'kamma-as-volition',
+	inheritance_of_deeds = 'inheritance-of-deeds',
 }
 
 type ElaborationTypes = typeof SufferingTreeType | typeof OriginTreeType

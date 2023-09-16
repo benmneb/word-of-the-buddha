@@ -23,6 +23,11 @@ import OriginOfWanting from '@/content/2-origin/1-origin-of-wanting/index.en.mdx
 import DutchOriginOfWanting from '@/content/2-origin/1-origin-of-wanting/index.nl.mdx'
 import DependentOrigination from '@/content/2-origin/2-dependent-origination/index.en.mdx'
 import DutchDependentOrigination from '@/content/2-origin/2-dependent-origination/index.nl.mdx'
+import PresentKamma from '@/content/2-origin/3-kamma/1-present-kamma/index.en.mdx'
+import FutureKamma from '@/content/2-origin/3-kamma/2-future-kamma/index.en.mdx'
+import KammaAsVolition from '@/content/2-origin/3-kamma/3-kamma-as-volition/index.en.mdx'
+import InheritanceOfDeeds from '@/content/2-origin/3-kamma/4-inheritance-of-deeds/index.en.mdx'
+import Kamma from '@/content/2-origin/3-kamma/index.en.mdx'
 import { Locale } from '@/i18n/config'
 
 const englishSufferingComponents: Record<SufferingTreeType, JSX.Element> = {
@@ -44,6 +49,11 @@ const englishSufferingComponents: Record<SufferingTreeType, JSX.Element> = {
 const englishOriginComponents: Record<OriginTreeType, JSX.Element> = {
 	origin: <OriginOfWanting />,
 	'dependent-origination': <DependentOrigination />,
+	kamma: <Kamma />,
+	'present-kamma': <PresentKamma />,
+	'future-kamma': <FutureKamma />,
+	'kamma-as-volition': <KammaAsVolition />,
+	'inheritance-of-deeds': <InheritanceOfDeeds />,
 }
 
 const dutchSufferingComponents: Partial<

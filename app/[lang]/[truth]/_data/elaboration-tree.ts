@@ -75,8 +75,30 @@ const originTree: TreeType[] = [
 		path: `${Truths.origin}/${OriginTreeType.origin}`,
 	},
 	{
-		i18nkey: 'dependent-origination',
+		i18nkey: 'dependentOrigination',
 		path: `${Truths.origin}/${OriginTreeType.dependent_origination}`,
+	},
+	{
+		i18nkey: 'kamma',
+		path: `${Truths.origin}/${OriginTreeType.kamma}`,
+		children: [
+			{
+				i18nkey: 'presentKamma',
+				path: `${Truths.origin}/${OriginTreeType.present_kamma}`,
+			},
+			{
+				i18nkey: 'futureKamma',
+				path: `${Truths.origin}/${OriginTreeType.future_kamma}`,
+			},
+			{
+				i18nkey: 'kammaAsVolition',
+				path: `${Truths.origin}/${OriginTreeType.kamma_as_volition}`,
+			},
+			{
+				i18nkey: 'inheritanceOfDeeds',
+				path: `${Truths.origin}/${OriginTreeType.inheritance_of_deeds}`,
+			},
+		],
 	},
 ]
 
