@@ -102,7 +102,7 @@ const englishTheWayComponents: Record<TheWayTreeType, JSX.Element> = {
 	// 4
 	'right-action': <div />,
 	// 5
-	right_livelihood: <div />,
+	'right-livelihood': <div />,
 	// 6,
 	'right-endeavour': <div />,
 	'endeavour-of-restraint': <div />,
@@ -161,7 +161,7 @@ const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
 	...englishSufferingComponents,
 	...englishOriginComponents,
 	...englishCessationComponents,
-	// ...englishTheWayComponents,
+	...englishTheWayComponents,
 }
 
 // Anything other than English can be Partial<...>
