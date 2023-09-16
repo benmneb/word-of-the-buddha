@@ -22,9 +22,7 @@ import Anatta from '@/content/1-suffering/3-anatta/index.en.mdx'
 import ThreeWarnings from '@/content/1-suffering/4-three-warnings/index.en.mdx'
 import Samsara from '@/content/1-suffering/5-samsara/index.en.mdx'
 import OriginOfWanting from '@/content/2-origin/1-origin-of-wanting/index.en.mdx'
-import DutchOriginOfWanting from '@/content/2-origin/1-origin-of-wanting/index.nl.mdx'
 import DependentOrigination from '@/content/2-origin/2-dependent-origination/index.en.mdx'
-import DutchDependentOrigination from '@/content/2-origin/2-dependent-origination/index.nl.mdx'
 import PresentKamma from '@/content/2-origin/3-kamma/1-present-kamma/index.en.mdx'
 import FutureKamma from '@/content/2-origin/3-kamma/2-future-kamma/index.en.mdx'
 import KammaAsVolition from '@/content/2-origin/3-kamma/3-kamma-as-volition/index.en.mdx'
@@ -152,10 +150,10 @@ const dutchSufferingComponents: Partial<
 	'three-characteristics': <DutchExperience />,
 }
 
-const dutchOriginComponents: Record<OriginTreeType, JSX.Element> = {
-	origin: <DutchOriginOfWanting />,
-	'dependent-origination': <DutchDependentOrigination />,
-}
+// const dutchOriginComponents: Record<OriginTreeType, JSX.Element> = {
+// 	origin: <DutchOriginOfWanting />,
+// 	'dependent-origination': <DutchDependentOrigination />,
+// }
 
 const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
 	...englishSufferingComponents,
@@ -167,7 +165,7 @@ const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
 // Anything other than English can be Partial<...>
 const dutchComponents: Partial<Record<ElaborationSubjects, JSX.Element>> = {
 	...dutchSufferingComponents,
-	...dutchOriginComponents,
+	// ...dutchOriginComponents,
 }
 
 export const componentMap: Record<
