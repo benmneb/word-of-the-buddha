@@ -3,6 +3,7 @@ import {
 	ElaborationSubjects,
 	OriginTreeType,
 	SufferingTreeType,
+	TheWayTreeType,
 } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
 import Form from '@/content/1-suffering/1-five-components/1-form/index.en.mdx'
 import DutchForm from '@/content/1-suffering/1-five-components/1-form/index.nl.mdx'
@@ -66,6 +67,82 @@ const englishCessationComponents: Record<CessationTreeType, JSX.Element> = {
 	'the-arahant': <TheArahant />,
 }
 
+const englishTheWayComponents: Record<TheWayTreeType, JSX.Element> = {
+	'right-view': <div />,
+	'wrong-view': <div />,
+	'the-four-noble-truths': <div />,
+	'the-good-and-the-bad': <div />,
+	'right-view-regarding-five-components-of-existence': <div />,
+	'unprofitable-questions': <div />,
+	'five-basic-fetters': <div />,
+	'unwise-contemplations': <div />,
+	'six-views-about-the-soul': <div />,
+	'two-extremes-and-middle-doctrine': <div />,
+	'the-soul': <div />,
+	'wise-contemplations': <div />,
+	'stream-enterer': <div />,
+	'causes-for-arising-of-right-view-of-stream-winning': <div />,
+	'view-of-permanent-essence': <div />,
+	'words-of-another': <div />,
+	water_simile: <div />,
+	jhananagami: <div />,
+	'scent-of-i-am': <div />,
+	'free-from-speculative-views': <div />,
+	'three-characteristics': <div />,
+	'dependent-origination': <div />,
+	// 2
+	'right-motivation': <div />,
+	// 3
+	'right-speech': <div />,
+	lying: <div />,
+	'malicious-gossip': <div />,
+	'harsh-speech': <div />,
+	'useless-chatter': <div />,
+	'right-way-to-criticise': <div />,
+	// 4
+	'right-action': <div />,
+	// 5
+	right_livelihood: <div />,
+	// 6,
+	'right-endeavour': <div />,
+	'endeavour-of-restraint': <div />,
+	'endeavour-to-abandon': <div />,
+	'endeavour-to-develop': <div />,
+	'endeavour-to-maintain': <div />,
+	// 7
+	'right-mindfulness': <div />,
+	'four-focuses-of-mindfulness': <div />,
+	'mindfulness-of-body': <div />,
+	'mindfulness-of-breathing': <div />,
+	'four-postures': <div />,
+	'full-comprehension-of-purpose': <div />,
+	'bodily-parts': <div />,
+	elements: <div />,
+	'charnel-ground-contemplations': <div />,
+	'benefits-of-mindfulness-of-body': <div />,
+	'arising-and-passing-away': <div />,
+	'mindfulness-of-experience': <div />,
+	'mindfulness-of-the-mind': <div />,
+	'mindfulness-of-mind-objects': <div />,
+	'five-hindrances': <div />,
+	'seven-enlightenment-factors': <div />,
+	'five-components-of-experience': <div />,
+	'six-sense-bases': <div />,
+	'four-noble-truths': <div />,
+	'summary-of-mind-objects': <div />,
+	'summary-of-satipatthana': <div />,
+	'nibbana-through-anapanasati': <div />,
+	'breathing-completes-mindfulness': <div />,
+	'mindfulness-completes-enlightenment-factors': <div />,
+	// 8
+	'right-stillness': <div />,
+	'four-jhanas': <div />,
+	//
+	'summing-up-the-path': <div />,
+	nibbana: <div />,
+	'the-true-goal': <div />,
+}
+
 const dutchSufferingComponents: Partial<
 	Record<SufferingTreeType, JSX.Element>
 > = {
@@ -84,6 +161,7 @@ const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
 	...englishSufferingComponents,
 	...englishOriginComponents,
 	...englishCessationComponents,
+	// ...englishTheWayComponents,
 }
 
 // Anything other than English can be Partial<...>
