@@ -1,4 +1,5 @@
 import {
+	CessationTreeType,
 	OriginTreeType,
 	SufferingTreeType,
 } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
@@ -102,9 +103,24 @@ const originTree: TreeType[] = [
 	},
 ]
 
+const cessationTree: TreeType[] = [
+	{
+		i18nkey: 'dependentCessation',
+		path: `${Truths.cessation}/${CessationTreeType.dependent_cessation}`,
+	},
+	{
+		i18nkey: 'nibbanaWithResidue',
+		path: `${Truths.cessation}/${CessationTreeType.nibbana_with_residue}`,
+	},
+	{
+		i18nkey: 'theArahant',
+		path: `${Truths.cessation}/${CessationTreeType.the_arahant}`,
+	},
+]
+
 export const elaborationTree: Record<Truths, TreeType[]> = {
 	suffering: sufferingTree,
 	origin: originTree,
-	cessation: sufferingTree,
+	cessation: cessationTree,
 	'the-way': sufferingTree,
 }

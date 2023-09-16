@@ -1,4 +1,5 @@
 import {
+	CessationTreeType,
 	ElaborationSubjects,
 	OriginTreeType,
 	SufferingTreeType,
@@ -28,6 +29,9 @@ import FutureKamma from '@/content/2-origin/3-kamma/2-future-kamma/index.en.mdx'
 import KammaAsVolition from '@/content/2-origin/3-kamma/3-kamma-as-volition/index.en.mdx'
 import InheritanceOfDeeds from '@/content/2-origin/3-kamma/4-inheritance-of-deeds/index.en.mdx'
 import Kamma from '@/content/2-origin/3-kamma/index.en.mdx'
+import DependentCessation from '@/content/3-cessation/1-dependent-cessation/index.en.mdx'
+import NibbanaWithResidue from '@/content/3-cessation/2-nibbana-with-residue/index.en.mdx'
+import TheArahant from '@/content/3-cessation/3-the-arahant/index.en.mdx'
 import { Locale } from '@/i18n/config'
 
 const englishSufferingComponents: Record<SufferingTreeType, JSX.Element> = {
@@ -56,6 +60,12 @@ const englishOriginComponents: Record<OriginTreeType, JSX.Element> = {
 	'inheritance-of-deeds': <InheritanceOfDeeds />,
 }
 
+const englishCessationComponents: Record<CessationTreeType, JSX.Element> = {
+	'dependent-cessation': <DependentCessation />,
+	'nibbana-with-residue': <NibbanaWithResidue />,
+	'the-arahant': <TheArahant />,
+}
+
 const dutchSufferingComponents: Partial<
 	Record<SufferingTreeType, JSX.Element>
 > = {
@@ -73,6 +83,7 @@ const dutchOriginComponents: Record<OriginTreeType, JSX.Element> = {
 const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
 	...englishSufferingComponents,
 	...englishOriginComponents,
+	...englishCessationComponents,
 }
 
 // Anything other than English can be Partial<...>

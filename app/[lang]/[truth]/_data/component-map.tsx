@@ -3,12 +3,13 @@ import Suffering from '@/content/1-suffering/index.en.mdx'
 import DutchSuffering from '@/content/1-suffering/index.nl.mdx'
 import Origin from '@/content/2-origin/index.en.mdx'
 import DutchOrigin from '@/content/2-origin/index.nl.mdx'
+import Cessation from '@/content/3-cessation/index.en.mdx'
 import { Locale } from '@/i18n/config'
 
 const englishComponents: Record<Truths, JSX.Element> = {
 	[Truths['suffering']]: <Suffering />,
 	[Truths['origin']]: <Origin />,
-	[Truths['cessation']]: <Origin />,
+	[Truths['cessation']]: <Cessation />,
 	[Truths['the-way']]: <Origin />,
 }
 

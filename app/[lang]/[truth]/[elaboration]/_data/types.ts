@@ -26,7 +26,16 @@ export enum OriginTreeType {
 	inheritance_of_deeds = 'inheritance-of-deeds',
 }
 
-type ElaborationTypes = typeof SufferingTreeType | typeof OriginTreeType
+export enum CessationTreeType {
+	dependent_cessation = 'dependent-cessation',
+	nibbana_with_residue = 'nibbana-with-residue',
+	the_arahant = 'the-arahant',
+}
+
+type ElaborationTypes =
+	| typeof SufferingTreeType
+	| typeof OriginTreeType
+	| typeof CessationTreeType
 
 export const ElaborationSubjectsMap: Record<Truths, ElaborationTypes> = {
 	suffering: SufferingTreeType,

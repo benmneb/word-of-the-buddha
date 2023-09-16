@@ -31,7 +31,11 @@
 				"short": "NL - Cessation",
 				"long": "The Dutch Truth of the Cessation of Suffering"
 			},
-			"elaborationTree": { "test": "mock" }
+			"elaborationTree": {
+				"dependentCessation": "Dependent Cessation of all Phenomena",
+				"nibbanaWithResidue": "Nibbāna with Residue Remaining",
+				"theArahant": "The Arahant"
+			}
 		},
 		"the-way": {
 			"title": {
