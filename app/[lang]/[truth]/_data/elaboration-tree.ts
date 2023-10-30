@@ -54,8 +54,8 @@ const sufferingTree: TreeType[] = [
 		],
 	},
 	{
-		i18nkey: 'threeCharacteristics',
-		path: `${Truths.suffering}/${SufferingTreeType.three_characteristics}`,
+		i18nkey: SufferingTreeType.three_characteristics_of_existence,
+		path: `${Truths.suffering}/${SufferingTreeType.three_characteristics_of_existence}`,
 	},
 	{
 		i18nkey: 'anatta',
@@ -78,7 +78,7 @@ const originTree: TreeType[] = [
 	},
 	{
 		i18nkey: 'dependentOrigination',
-		path: `${Truths.origin}/${OriginTreeType.dependent_origination}`,
+		path: `${Truths.origin}/${OriginTreeType.dependent_origination_of_all_phenomena}`,
 	},
 	{
 		i18nkey: 'kamma',

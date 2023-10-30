@@ -10,7 +10,7 @@ export enum SufferingTreeType {
 	dependent_origination_of_consciousnesses = 'dependent-origination-of-consciousnesses',
 	sankhara = 'sankhara',
 	dependency_of_consciousnesses = 'dependency-of-consciousnesses',
-	three_characteristics = 'three-characteristics',
+	three_characteristics_of_existence = 'three-characteristics-of-existence',
 	anatta = 'anatta',
 	three_warnings = 'three-warnings',
 	samsara = 'samsara',
@@ -18,7 +18,7 @@ export enum SufferingTreeType {
 
 export enum OriginTreeType {
 	origin = 'origin',
-	dependent_origination = 'dependent-origination',
+	dependent_origination_of_all_phenomena = 'dependent-origination-of-all-phenomena',
 	kamma = 'kamma',
 	present_kamma = 'present-kamma',
 	future_kamma = 'future-kamma',
@@ -122,4 +122,8 @@ export const ElaborationSubjectsMap: Record<Truths, ElaborationTypes> = {
 	'the-way': OriginTreeType,
 }
 
-export type ElaborationSubjects = SufferingTreeType | OriginTreeType
+export type ElaborationSubjects =
+	| SufferingTreeType
+	| OriginTreeType
+	| CessationTreeType
+	| TheWayTreeType

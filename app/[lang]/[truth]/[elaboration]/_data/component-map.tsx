@@ -5,6 +5,7 @@ import {
 	SufferingTreeType,
 	TheWayTreeType,
 } from '@/app/[lang]/[truth]/[elaboration]/_data/types'
+import { Truths } from '@/app/[lang]/[truth]/_data/types'
 import Form from '@/content/1-suffering/1-five-components/1-form/index.en.mdx'
 import DutchForm from '@/content/1-suffering/1-five-components/1-form/index.nl.mdx'
 import Experience from '@/content/1-suffering/1-five-components/2-experience/index.en.mdx'
@@ -43,7 +44,7 @@ const englishSufferingComponents: Record<SufferingTreeType, JSX.Element> = {
 	'dependent-origination-of-consciousnesses': <DOConsciousnesses />,
 	sankhara: <Sankhara />,
 	'dependency-of-consciousnesses': <DepOfConsciousnesses />,
-	'three-characteristics': <ThreeCharacteristics />,
+	'three-characteristics-of-existence': <ThreeCharacteristics />,
 	anatta: <Anatta />,
 	'three-warnings': <ThreeWarnings />,
 	samsara: <Samsara />,
@@ -51,7 +52,7 @@ const englishSufferingComponents: Record<SufferingTreeType, JSX.Element> = {
 
 const englishOriginComponents: Record<OriginTreeType, JSX.Element> = {
 	origin: <OriginOfWanting />,
-	'dependent-origination': <DependentOrigination />,
+	'dependent-origination-of-all-phenomena': <DependentOrigination />,
 	kamma: <Kamma />,
 	'present-kamma': <PresentKamma />,
 	'future-kamma': <FutureKamma />,
@@ -147,7 +148,7 @@ const dutchSufferingComponents: Partial<
 	khandas: <DutchFiveComponents />,
 	form: <DutchForm />,
 	experience: <DutchExperience />,
-	'three-characteristics': <DutchExperience />,
+	'three-characteristics-of-existence': <DutchExperience />,
 }
 
 // const dutchOriginComponents: Record<OriginTreeType, JSX.Element> = {
@@ -155,23 +156,28 @@ const dutchSufferingComponents: Partial<
 // 	'dependent-origination': <DutchDependentOrigination />,
 // }
 
-const englishComponents: Record<ElaborationSubjects, JSX.Element> = {
-	...englishSufferingComponents,
-	...englishOriginComponents,
-	...englishCessationComponents,
-	...englishTheWayComponents,
+type ComponentMapType = Record<
+	Truths,
+	Partial<Record<ElaborationSubjects, JSX.Element>>
+>
+
+const englishComponentMap: ComponentMapType = {
+	[Truths.suffering]: englishSufferingComponents,
+	[Truths.origin]: englishOriginComponents,
+	[Truths.cessation]: englishCessationComponents,
+	[Truths['the-way']]: englishTheWayComponents,
 }
 
 // Anything other than English can be Partial<...>
-const dutchComponents: Partial<Record<ElaborationSubjects, JSX.Element>> = {
-	...dutchSufferingComponents,
+const dutchComponents: Partial<ComponentMapType> = {
+	[Truths.suffering]: dutchSufferingComponents,
 	// ...dutchOriginComponents,
 }
 
 export const componentMap: Record<
 	Locale,
-	Partial<Record<ElaborationSubjects, JSX.Element>>
+	Partial<ComponentMapType> // Partial again for translations
 > = {
-	en: englishComponents,
+	en: englishComponentMap,
 	nl: dutchComponents,
 }
