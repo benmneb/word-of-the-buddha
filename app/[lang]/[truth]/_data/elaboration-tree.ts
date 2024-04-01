@@ -14,11 +14,11 @@ export interface TreeType {
 
 const sufferingTree: TreeType[] = [
 	{
-		i18nkey: 'fiveComponents',
+		i18nkey: SufferingTreeType.khandas,
 		path: `${Truths.suffering}/${SufferingTreeType.khandas}`,
 		children: [
 			{
-				i18nkey: 'form',
+				i18nkey: SufferingTreeType.form,
 				path: `${Truths.suffering}/${SufferingTreeType.form}`,
 			},
 			{
