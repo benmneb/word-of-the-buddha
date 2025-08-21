@@ -1,0 +1,65 @@
+# https://pandoc.org/MANUAL.html#epub-metadata
+
+title:
+  - type: main
+    text: The Word of the Buddha
+  - type: subtitle
+    text: An Outline of the Teachings of the Buddha in the Words of the Pāli Canon
+  - type: edition
+    text: Second Edition
+  - type: short
+    text: Word of the Buddha
+creator: # https://loc.gov/marc/relators/relaterm.html
+  - role: aut # Author
+    text: Ajahn Brahm
+  - role: trl # Translator
+    text: Bhikkhu Bodhi
+  - role: trl # Translator
+    text: Ajahn Brahm
+  - role: edt # Editor
+    text: Ajahn Brahm
+  - role: ccp # Conceptor
+    text: Ñāṇatiloka Mahāthera
+contributor:
+  - role: edt # Editor
+    text: Bhante Kimbila
+  - role: edt # Editor
+    text: Bhante Dayālu
+  - role: edt # Editor
+    text: Anagārika Benjamin
+  - role: mrk # Markup editor
+    text: benmneb
+  - role: bkd # Book designer
+    text: Pressroom Printer and Designer Ltd (print, PDF)
+  - role: bkd # Book designer
+    text: benmneb (EPUB, web)
+subject: # https://ns.editeur.org/thema/en/QRF
+  - authority: Thema
+    term: QRFF
+    text: 'Buddhism: sacred texts and revered writings'
+  - authority: Thema
+    term: QRFB1
+    text: Theravada Buddhism
+lang: en
+format: application/epub+zip
+type: Text # DCMI URI: http://purl.org/dc/dcmitype/Text
+cover-image: epub/cover-sm.png # Pandoc recommends <1000px max width/height
+identifier:
+  # TODO: Get a unique ISBN? Check with Gerald & Co, this one's from the PDF
+  - scheme: ISBN-13
+    text: 978-0-646-71704-3
+source: # http://purl.org/dc/elements/1.1/source
+  - scheme: ISBN-13
+    text: 978-9552403644
+publisher: Bodhinyana International Foundation (BIF)
+rights: >
+  © 2025 Ajahn Brahmavaṃso - Permission to copy, reprint and distribute this
+  publication is hereby given provided no changes are made to the content or layout.
+  Reproduction in any way for commercial gain is prohibited.
+ibooks:
+  version: 2.1.0
+  # specified-fonts: true
+css:
+  - epub/styles/pandoc-defaults.css
+  - epub/styles/custom.css
+# date: '2025-08-14'

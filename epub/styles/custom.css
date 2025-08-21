@@ -1,0 +1,97 @@
+/* Mimic table of contents headings in the printed book. */
+#toc > ol.toc > li {
+  margin-top: 0.75rem;
+}
+
+#toc > ol.toc > li > a {
+  font-weight: bold;
+}
+
+#toc a {
+  text-decoration: none;
+}
+
+/* Mimic chapter headings in the printed book. */
+h1:not(#toc-title):not(.main):not(.unnumbered) {
+  text-transform: uppercase;
+  margin: 0 0 4rem 0;
+}
+
+/* Pandoc requires headings to include the `epub:type` attribute,
+   so when these pages don't require a heading, I've left it empty.
+   eg. copyright-page and titlepage */
+h1:empty {
+  display: none;
+}
+
+.sutta-ref {
+  /*font-family: sans-serif;*/
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.2rem;
+  /*margin: 0 0.2rem 0.2rem 0;*/
+}
+
+@media (prefers-color-scheme: dark) {
+  .sutta-ref {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+/* Failed attempt to mimic the parenthetical lists in the printed book.
+   This got close, but because CSS `list-style-type` can’t do parentheses and
+   pure CSS has no way to “auto-size” the `::before` element based on its content and still make the text align consistently
+   it looks much better just using the default list styling...
+   Keeping this here for the painful memories.
+*/
+/*ol:not(div.alpha-numeric-list ol) {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  counter-reset: item;
+}
+
+ol:not(div.alpha-numeric-list ol) li {
+  counter-increment: item;
+}
+
+ol:not(div.alpha-numeric-list ol) li::before {
+  content: '(' counter(item) ')';
+  display: inline-block;
+  width: 4ch;
+  text-align: center;
+  margin-right: 0.5em;
+}*/
+
+/* For the custom grouped-list styled like 1a 1b 1c 2a 2b 2c etc */
+.alpha-numeric-list ol,
+.alpha-numeric-list ol ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.alpha-numeric-list ol > li {
+  counter-increment: main;
+}
+
+.alpha-numeric-list ol > li > ol {
+  counter-reset: sub;
+  padding-left: 0.5rem;
+}
+
+.alpha-numeric-list ol > li > ol > li {
+  counter-increment: sub;
+  position: relative;
+  padding-left: 1.8rem; /* space for number+letter */
+}
+
+.alpha-numeric-list ol > li > ol > li::before {
+  content: counter(main) counter(sub, lower-alpha) '. ';
+  position: absolute;
+  left: 0;
+}
+
+.alpha-numeric-list ol > li > ol > li:nth-child(3n) {
+  margin-bottom: 1rem;
+}
