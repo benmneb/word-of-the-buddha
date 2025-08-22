@@ -1,3 +1,17 @@
+/* Prioritise the e-reader's own optimized serif font.
+   Examples:
+   - Kindle → Bookerly
+   - Kobo → Malabar
+   - Apple Books → Athelas
+   - Google Play Books → Literata
+   - Nook → Georgia or Malabar
+   And fallback to Georgia (Pro) and system serif if all else fails. */
+body {
+  font-family:
+    'Bookerly', 'Literata', 'Athelas', 'Malabar', 'Georgia Pro', Georgia, serif;
+  line-height: 1.5; /* More readable, and allows space for the .sutta-ref border */
+}
+
 /* Mimic table of contents headings in the printed book. */
 #toc > ol.toc > li {
   margin-top: 0.75rem;
