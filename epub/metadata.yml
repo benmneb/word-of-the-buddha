@@ -58,8 +58,7 @@ rights: >
   Reproduction in any way for commercial gain is prohibited.
 ibooks:
   version: 2.1.0
-  # specified-fonts: true
 css:
   - epub/styles/pandoc-defaults.css
   - epub/styles/custom.css
-# date: '2025-08-14'
+date: '2025-08-22'
