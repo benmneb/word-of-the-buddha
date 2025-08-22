@@ -52,6 +52,18 @@ h1:empty {
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-small-caps {
+  font-variant: small-caps;
+}
+
 /* Failed attempt to mimic the parenthetical lists in the printed book.
    This got close, but because CSS `list-style-type` can’t do parentheses and
    pure CSS has no way to “auto-size” the `::before` element based on its content and still make the text align consistently

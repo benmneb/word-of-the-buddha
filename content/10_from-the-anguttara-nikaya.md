@@ -4,7 +4,7 @@
 
 As mentioned in the Foreword, I have long campaigned for renderings of the suttas which accurately reflect the workings of the Buddhist path, which is not practised through willpower, but through letting go and renouncing, thereby enabling it to unfold as a natural process of cause and effect. “Stillness” rather than “concentration”, as a rendering of _samādhi_, is but one example of this. All too often, this crucial idea is missed or forgotten by practitioners to the detriment of their own happiness and progress on the path; therefore it warrants extra emphasis. It is for this reason that I append the following passages from the Aṅguttara Nikāya. These lay out the stages of the path explicitly, from several angles, all highlighting its impersonal, purely causal nature. Let no doubt remain!
 
-<div style="text-align: right;">
+<div class="text-right">
 **Ajahn Brahm**
 </div>
 

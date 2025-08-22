@@ -21,7 +21,7 @@ Designed for EPUB & web at Bodhinyana Great Southern by benmneb
 [www.wordofthebuddha.com](https://www.wordofthebuddha.com)
 
 # {epub:type=titlepage .unnumbered .unlisted}
-<div style="text-align: center;">
+<div class="text-center">
 The Word of the Buddha
 
 An Outline of the Teachings of the Buddha<br />

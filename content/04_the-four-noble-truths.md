@@ -8,7 +8,7 @@
 
 But when my penetration and insight into these four noble truths as they really are was thoroughly complete in their three phases and twelve aspects, then did I claim to have awakened to the unsurpassed perfect awakening in this world.
 
-::: {.alpha-numeric-list}
+<div class="alpha-numeric-list">
 1.
   1. This is the noble truth of suffering (dukkha).
   1. Suffering is to be fully understood.
@@ -28,7 +28,7 @@ But when my penetration and insight into these four noble truths as they really 
   1. This is the noble truth of the way leading to the cessation of suffering: the noble eightfold path (_ariya aṭṭhaṅgika magga)_.
   1. The noble eightfold path (the way to the cessation of suffering) is to be developed.
   1. The noble eightfold path (the way to the cessation of suffering) has been developed.
-:::
+</div>
 
 Thus, in regard to things unheard before in this generation, there arose in me vision, knowledge, wisdom, true knowledge, and light.
 
