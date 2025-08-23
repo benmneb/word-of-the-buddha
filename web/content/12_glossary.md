@@ -1,0 +1,54 @@
+# Glossary
+
+**ĀLAYA**: The core meaning of _ālaya_ is the place where something settles or takes root, as in the Himālaya—the abode of _hima_ (snow). In the context of the Buddha’s statement: “But this generation enjoys, attaches to and rejoices in ālaya (_ālaya-rāma_, _ālaya-rata_, _ālaya-sammudita_),” what are they really attaching to? What takes root? I understand that it is the delusion of a self, a permanent essence, which takes root. Hence, I have chosen to render this phrase as “But this generation is attached to the idea of a self, delights in what results from a self, and rejoices in their sense of self.”
+
+**ATTĀ**: The main qualities of the term _attā_ are that it is eternal and that it is the indestructible core of a being. Hence, I chose the rendering “permanent essence”.
+
+**HAT’ŪPANISA**: _Hata_ means “killed” or “destroyed”. _Upanisā_ refers to the “cause”. Together, they mean that the “cause for the arising of the next in the chain has been destroyed.” In these conditional sequences given in the Aṅguttara extracts, it is referring to _idappaccayatā_, the process of causality—the part that says “When this (A) is not, then that (B) is not.” In Western logic, this describes what is called a “necessary cause”. “A” is a necessary cause for “B” to occur. So, with the absence of “A,” the cause for the arising of “B” has been destroyed. For this reason, I described these links with the rendering “necessary cause”.
+
+**JĀTI**: Buddhists accept the truth of rebirth. This is not our first birth. So, I have rendered _jāti_ as “rebirth”.
+
+**JHĀNA**: There is no adequate word in English to capture the meaning of jhāna. This is because there are few people who experience the real states of jhāna enough to understand it. Moreover, the word is becoming so well-known in Buddhist circles that there seems to be no point in rendering it.
+
+**KĀMA-TANHĀ** and **VIVICC’EVA-KĀMEHI**: It seems that when the term _kāma_ is used in the plural case, it refers to the world of the five senses (_kāma-loka_). It is misleading, as I understand it, to confuse this term with _kāma-sukha_, meaning five-sense pleasure. Therefore, I have rendered the two terms above as: “wanting related to the five senses” and “totally free from the five senses”.
+
+**KHANDHA**: “Aggregates” might be an accurate term, but the five khandhas are not any old aggregates. They represent what ordinary folk take to be who they are. This is why I chose the rendering “components of existence”.
+
+**NIBBIDĀ**: Some are surprised to read such a negative rendering of “revulsion” for _nibbidā_. However, AN 9.15, “The Boil,” compares the human body to a boil that is many years old with foul, disgusting ooze coming from each of nine orifices! It would be expected to regard this “boil” with _nibbidā_.
+
+The common rendering for _nibbidā_, “disenchantment”, does not fit. Would you be merely “disenchanted” with an inflammation dripping foul-smelling pus, or feel revulsion? When you see things as they really are (_yathā-bhūta-dassanā_), it is as if you suddenly wake up to the fact that you are in a very unpleasant prison. You experience negativity to your situation, not mere disenchantment. You feel “revulsion”.
+
+**PARIMUKKHAṀ**: An adverb usually translated as having established mindfulness “in front of you.” However, this begs the question: Where is the correct location of “you”? Moreover, it misses the point that _parimukkham_ means “putting in front” in the sense of giving something priority. Thus, I have rendered this term as “give priority” (to establishing mindfulness).
+
+**SABBA-KĀYA-PATISAṀVEDĪ**: As the third instruction in the first tetrad of _ānāpānassati_, this is sometimes translated as “being mindful of the whole body” (meaning the physical body). Not only is this unnatural—as if one has to overwhelm the awareness of the breath with every other bodily sensation—but it is misleading. As the mindfulness becomes more refined, it is able to observe the whole in-breath from beginning to end without missing anything, and so with the
+out-breath as well as the pause between the in-to-out-breath, and the out-to-in-breath. One watches the complete sequence of sensations that make up the whole breath cycle. The term _kāya_ sometimes means a physical body, but also means a collection of things. In this case, it means the collection of _kāya-saṅkhāra_ that constitute the breath.
+
+**SABBA-SAṄKHĀRA-SAMATHA**: The rendering “the end of all formations” fails to resonate. Moreover, the important term _samatha_ refers to settling, calming or stilling. Also, _saṅkhāra_ is more meaningfully rendered as “will”. Thus I chose the more powerful and accurate rendering “the stilling of all will”. Now, a generation that is attached to a self will find the idea of the stilling of all will hard to understand!
+
+**SAMĀDHI**: The well-worn translation “concentration” does not match the experience of _samādhi_ in Buddhist meditation. Moreover, the word “concentration” implies coercion. It is something one does. It is worth noting that Siddhattha Gotama had his first experience of _sammā samādhi_ as a young seven-year-old boy while idling under the shade of a tree. Young children are not adept at concentration! “Stillness”, on the other hand, arises from letting go, a non-doing.
+
+**SAMBODHI**: The usual translation is “enlightenment”. However, since _sambodhi_ is not a theoretical knowledge, nor secular, but more of an experiential illumination that goes beyond cerebral theories, I have chosen the rendering “awakening”.
+
+**SAṄKAPPA**: The usage of _saṅkappa_ in other places may mean forward-planning. However, its definition in the context of the noble eightfold path clearly points to where the plans were coming from—in other words, the “motivation”. In the
+Vinaya, as well as in modern legal systems, a distinction is made between motive (where the act was coming from) and the intention (where the act was going to, the goal). The definition of _sammā saṅkappa_ clearly relates to the motive—coming
+from renunciation (letting go), kindness and gentleness.
+
+This makes the noble eightfold path more meaningful. Right view is the cause for the motivations of letting go, kindness and gentleness. From such pure motivations, the actions of body and speech begin to fit with right speech, action and livelihood.
+
+**SAṂSĀRA**: This term is well enough known by those who would read a book such as this, that I leave it untranslated.
+
+**TAṄHĀ**: The common translation of “craving” seems to limit the scope of _taṅhā_ to the more intense forms of wanting. Indeed, the Oxford English Dictionary definition of craving is “a powerful desire for something.” I understand that even
+weak forms of wanting may also lead to rebirth, as in the Simile of the Quail (MN 66), so I have chosen the more inclusive rendering “wanting”.
+
+**VĀYĀMA**: _Sammā vāyāma_ is defined by its results: defiled states such as the five hindrances go and stay away, and pure states arise and remain. When this is compared to the factors in the gradual training, which is a parallel description of the noble eightfold path, _sammā vāyāma_ can only correspond with “sense restraint”, _indriya saṁvara_. Moreover, by rendering _vāyāma_ as restraint of the five hindrances, I have highlighted the transition from _sammā vāyāma_ to _sammā sati_, where each of the four _satipaṭṭhāna_ are to be practised “having first restrained the five hindrances.” For these reasons, I have chosen to translate _vāyāma_ as “restraint”.
+
+**VEDANĀ**: I resisted the usual translation of vedanā as “feeling” because the word is restricted in common usage to emotional sensitivity and tactile impressions. One does not “feel” a sight! Indeed, when I examine its usage in the context of the khandhas, the common term “experience” appears the best rendering. There are three types of _vedanā_, just as there are three types of experience: pleasant, unpleasant and neutral.
+
+**VINEY YA LOKE ABHIJJHĀ DOMANASSAṀ**: This prerequisite for the practice of any of the four focuses of mindfulness is usually translated as: “Having abandoned covetousness and grief for the world.” In fact, in the suttas, _loke abhijjhā_ is a common synonym for _kāmacchanda_, being the first of the five hindrances. The term _domanassa_ occurs once in the suttas (AN 3.33) as a synonym for the second of the five hindrances, aversion (_vyāpāda_). Moreover, the commentaries to both the _Mahāsatipaṭṭhāna Sutta_ (DN 22) and the _Satipaṭṭhāna Sutta_ (MN 10) confirm that _loke abhijjhā domanassa_ means “the five hindrances”.
+
+**VIÑÑĀNA**: To translate _viññāna_ as “consciousness” misses the important point that there are six different types of consciousnesses. Consequently, rendering _viññāna_ as “consciousnesses” is true to its defined usage in the context of the khandhas and also draws out the essential point of Dhamma that there is nothing continuous throughout the process of six different consciousnesses arising and passing away. It is like a row of six different types of beads with no string passing through each bead.
+
+**VIRĀGA**: Sometimes translated as “dispassion”, but my preferred rendering of this term is “fading away”, which draws attention to the five components of existence in the process of disappearing—because of no more fuel (_upādāna_)—on the unstoppable way to complete cessation.
+
+**VITAKKA-VICĀRA**: In some contexts, _vitakka-vicāra_ is best rendered as “thinking and pondering”. However, in the context of the first jhāna, thinking is way too coarse to describe the single-summit (_ekaggatā_) experience of inner
+silence. In the refined inner tranquillity of the first jhāna, _vitakka-vicāra_ describes the sub-verbal residual movements of a stilled mind that would previously have generated a thought. Now, in the first jhāna, it can be compared to a “wobble” in the stillness. This is why I have chosen the rendering “movement of the mind onto the object (of _pīti-sukha_) and holding on to it.”

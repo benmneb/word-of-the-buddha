@@ -1,0 +1,108 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    Adwaita Sans,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    helvetica,
+    arial,
+    sans-serif;
+  line-height: 1.5; /* More readable, and allows space for the .sutta-ref border */
+}
+
+.sutta-ref {
+  /*font-family: sans-serif;*/
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.2rem;
+  /*margin: 0 0.2rem 0.2rem 0;*/
+}
+
+@media (prefers-color-scheme: dark) {
+  .sutta-ref {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-small-caps {
+  font-variant: small-caps;
+}
+
+/* For the custom grouped-list styled like 1a 1b 1c 2a 2b 2c etc */
+.alpha-numeric-list ol,
+.alpha-numeric-list ol ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.alpha-numeric-list ol > li {
+  counter-increment: main;
+}
+
+.alpha-numeric-list ol > li > ol {
+  counter-reset: sub;
+  padding-left: 0.5rem;
+}
+
+.alpha-numeric-list ol > li > ol > li {
+  counter-increment: sub;
+  position: relative;
+  padding-left: 1.8rem; /* space for number+letter */
+}
+
+.alpha-numeric-list ol > li > ol > li::before {
+  content: counter(main) counter(sub, lower-alpha) '. ';
+  position: absolute;
+  left: 0;
+}
+
+.alpha-numeric-list ol > li > ol > li:nth-child(3n) {
+  margin-bottom: 1rem;
+}
