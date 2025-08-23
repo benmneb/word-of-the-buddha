@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
-  title: 'The Word of the Buddha',
+  title: 'The Word of the Buddha | by Ajahn Brahm',
   tagline:
     'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
   favicon: 'img/favicon.ico',
@@ -35,6 +35,7 @@ const config: Config = {
           path: 'content',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          breadcrumbs: false,
         },
         blog: false,
         theme: {
@@ -45,60 +46,84 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    // announcementBar: {
+    //   id: 'id1',
+    //   content: 'Announcement!!1',
+    //   backgroundColor: 'orange',
+    //   textColor: '#091E42',
+    //   isCloseable: true,
+    // },
     // TODO: Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      hideOnScroll: true,
       title: 'The Word of the Buddha',
-      logo: {
-        alt: 'Word of the Buddha',
-        src: 'img/logo.svg',
-      },
+      // logo: {
+      //   alt: 'Word of the Buddha',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         {
+          type: 'html',
+          position: 'left',
+          value: '<small><em>by Ajahn Brahm</em></small>',
+        },
+        {
+          type: 'dropdown',
+          label: 'Offline',
+          position: 'right',
+          items: [
+            {
+              label: 'PWA',
+              href: 'https://archive.org', // TODO
+            },
+            {
+              label: 'EPUB',
+              href: 'https://archive.org', // TODO
+            },
+            {
+              label: 'PDF',
+              href: 'https://archive.org', // TODO
+            },
+          ],
+        },
+        {
           href: 'https://github.com/benmneb/word-of-the-buddha',
-          label: 'GitHub',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+          position: 'right',
+        },
+        // TODO: Add seearch: https://docusaurus.io/docs/search
+        {
+          type: 'search',
           position: 'right',
         },
       ],
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 5,
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/benmneb/word-of-the-buddha',
-            },
-            {
-              label: 'BIF',
-              href: 'https://www.bodhinyana.com',
-            },
-          ],
-        },
-      ],
+      style: 'light',
+      links: [], // https://docusaurus.io/docs/api/themes/configuration#footer-links
+      // logo: {
+      //   alt: 'Logo',
+      //   src: 'img/logo.png',
+      //   href: 'https://...',
+      //   width: 160,
+      //   height: 51,
+      // },
       copyright: `Copyright © ${new Date().getFullYear()} Ajahn Brahmavaṃso.
 
       All rights reserved.
