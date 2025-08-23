@@ -1,4 +1,4 @@
-## Changelog
+# Changelog
 
 These are all changes from the second edition PDF to the EPUB.
 

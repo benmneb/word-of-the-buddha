@@ -1,4 +1,8 @@
-# Building
+# Word of the Buddha
+
+EPUB version.
+
+## Building
 
 Install [pandoc](https://pandoc.org/installing.html).
 
