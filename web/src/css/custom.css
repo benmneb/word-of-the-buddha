@@ -1,6 +1,10 @@
 /* Find class names: https://docusaurus.community/knowledge/design/css/variables/ */
 
 :root {
+  --system-serif:
+    Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif,
+    Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
   /* Test colours here: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
   --ifm-color-primary: #a36725;
   --ifm-color-primary-dark: #935d21;
@@ -12,6 +16,7 @@
   --ifm-font-size-base: 120%;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-font-family: var(--system-serif);
 }
 
 [data-theme='dark'] {
@@ -107,18 +112,7 @@
   max-width: 60ch;
   margin: auto;
   line-height: 1.75;
-  font-family:
-    Iowan Old Style,
-    Apple Garamond,
-    Baskerville,
-    Times New Roman,
-    Droid Serif,
-    Times,
-    Source Serif Pro,
-    serif,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol;
+  font-family: var(--system-serif);
   font-weight: 600;
 
   & p {
@@ -129,5 +123,65 @@
     text-wrap: balance;
     text-align: center;
     margin: 4rem 0;
+  }
+}
+
+/* Home/index page */
+.home {
+  display: flex;
+  font-weight: 600;
+
+  h1,
+  h2,
+  p,
+  a {
+    font-family: var(--system-serif);
+  }
+
+  section {
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+
+  figure {
+    display: flex;
+    height: calc(100vh - 2rem);
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-height: 100%;
+    border-radius: 2rem;
+    object-fit: contain;
+  }
+
+  hgroup {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* This is docusaurus's breakpoint */
+@media screen and (max-width: 996px) {
+  .home {
+    flex-direction: column-reverse;
+
+    section {
+      padding: 1rem;
+    }
+
+    /*figure {
+    display: none;
+  }*/
   }
 }
