@@ -9,9 +9,17 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 const sidebars: SidebarsConfig = {
   contents: [
     // 'copyright-page',
-    'forward',
-    'acknowledgements-from-the-publisher',
-    'preface-to-the-second-edition',
+    { type: 'doc', id: 'forward', className: 'sidebar-item-faded' },
+    {
+      type: 'doc',
+      id: 'acknowledgements-from-the-publisher',
+      className: 'sidebar-item-faded',
+    },
+    {
+      type: 'doc',
+      id: 'preface-to-the-second-edition',
+      className: 'sidebar-item-faded',
+    },
     'the-four-noble-truths',
     'suffering',
     'origin-of-suffering',
@@ -58,9 +66,22 @@ const sidebars: SidebarsConfig = {
     },
     'the-gradual-training',
     'from-the-anguttara-nikaya',
-    'abbreviations',
-    'glossary',
-    'about-the-author',
+
+    {
+      type: 'doc',
+      id: 'abbreviations',
+      className: 'sidebar-item-faded',
+    },
+    {
+      type: 'doc',
+      id: 'glossary',
+      className: 'sidebar-item-faded',
+    },
+    {
+      type: 'doc',
+      id: 'about-the-author',
+      className: 'sidebar-item-faded',
+    },
   ],
 }
 
