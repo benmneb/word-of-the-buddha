@@ -2,7 +2,9 @@
 
 These are all changes from the second edition PDF to the EPUB.
 
-As this is the second major edition of the book, and the EPUB includes changes from the PDF, I've versioned this 2.1.0 in the metadata file.
+As this is the second major edition of the book, and the EPUB includes changes from the PDF, which includes changes from the print version, I've versioned this 2.2.0 in the metadata file.
+
+Page numbers below refer to pages in the second edition of the PDF.
 
 * Most pages: The sutta references. These have had to be changed to be inline rather than outside the main flow of the document to (1) work with the reflowable nature of EPUB files, (2) ensure readability across devices and (3) preserve semantic markup. They’ve been given a light border to differentiate them from the rest of the content.
 * Most lists: The print and PDF editions have lists styled like `(1) (2)` etc but here they have `1. 2.` etc because CSS `list-style-type` can’t do parentheses. A work around with `::before` came close but pure CSS has no way to “auto-size” the `::before` element based on its content and still make the text align consistently, so it still looks much better just using the default list styling.
