@@ -1,3 +1,7 @@
+---
+slug: 'right-livelihood'
+---
+
 # 5. Right Livelihood
 
 What, now, is right livelihood?

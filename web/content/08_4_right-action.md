@@ -1,3 +1,7 @@
+---
+slug: 'right-action'
+---
+
 # 4. Right Action
 
 <span class="sutta-ref">DN 22</span> What, now, is right action?

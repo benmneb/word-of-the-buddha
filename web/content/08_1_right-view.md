@@ -1,3 +1,7 @@
+---
+slug: 'right-view'
+---
+
 # 1. Right View
 
 ## How to know Right View from Wrong View

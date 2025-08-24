@@ -1,3 +1,7 @@
+---
+slug: 'right-endeavour'
+---
+
 # 6. Right Endeavour
 
 What, now, is right endeavour?

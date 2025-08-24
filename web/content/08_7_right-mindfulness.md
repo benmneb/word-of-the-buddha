@@ -1,3 +1,7 @@
+---
+slug: 'right-mindfuless'
+---
+
 # 7. Right Mindfulness
 
 What, now, is right mindfulness?

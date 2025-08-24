@@ -1,3 +1,7 @@
+---
+slug: 'right-speech'
+---
+
 # 3. Right Speech
 
 <span class="sutta-ref">DN 22</span> What now is right speech? Right speech is refraining from lying, from malicious gossip, from harsh speech, and from useless chatter.

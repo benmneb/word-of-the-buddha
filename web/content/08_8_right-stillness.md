@@ -1,3 +1,7 @@
+---
+slug: 'right-stillness'
+---
+
 # 8. Right Stillness (Jhāna)
 
 <span class="sutta-ref">MN 36</span> I remembered a time when my father was occupied, while I was sitting in the cool shade of a rose-apple tree, having passed beyond the five senses and free from unwholesome states, I entered and abided in the first jhāna. I thought “Could that be the path to awakening (_bodhi_)?” Then the realisation arose: “That jhāna is indeed the path to awakening.”

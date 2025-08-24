@@ -1,3 +1,7 @@
+---
+slug: 'way-leading-to-the-cessation-of-suffering'
+---
+
 # IV. The Noble Truth of the Way Leading to the Cessation of Suffering
 
 <span class="sutta-ref">SN 56.11</span> There are these two extremes that should be avoided. The pursuit of happiness through the five senses, which is low (_hīna_), secular, coarse, ignoble, unbeneficial, and the pursuit of practices that fatigue the body and mind, which is painful, ignoble, unbeneficial.
