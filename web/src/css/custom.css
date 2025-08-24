@@ -13,7 +13,7 @@
   --ifm-color-primary-light: #b37129;
   --ifm-color-primary-lighter: #bb762b;
   --ifm-color-primary-lightest: #d18633;
-  --ifm-font-size-base: 120%;
+  --ifm-font-size-base: 100%;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-heading-font-family: var(--system-serif);
@@ -39,6 +39,7 @@
   border: 1px solid var(--ifm-color-content-secondary);
   border-radius: 0.25rem;
   padding: 0.1rem 0.2rem;
+  opacity: 0.5;
 }
 
 .text-center {
@@ -114,12 +115,13 @@
   line-height: 1.75;
   font-family: var(--system-serif);
   font-weight: 600;
+  /*font-size: 120%;*/
 
-  & p {
+  p {
     font-size: 120%;
   }
 
-  & h1 {
+  h1 {
     text-wrap: balance;
     text-align: center;
     margin: 4rem 0;
@@ -178,6 +180,7 @@
 
     section {
       padding: 1rem;
+      min-height: 100vh;
     }
 
     /*figure {

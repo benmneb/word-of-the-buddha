@@ -1,4 +1,3 @@
-import { themes as prismThemes } from 'prism-react-renderer'
 import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
@@ -8,20 +7,18 @@ const config: Config = {
     'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true, // https://docusaurus.io/docs/api/docusaurus-config#future
   },
 
-  // Set the production url of your site here
+  // Production url
   url: 'https://www.wordofthebuddha.com',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang.
+  // Set useful metadata like html lang.
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -53,7 +50,7 @@ const config: Config = {
     },
     // announcementBar: {
     //   id: 'id1',
-    //   content: 'Announcement!!1',
+    //   content: 'New updates released',
     //   backgroundColor: 'orange',
     //   textColor: '#091E42',
     //   isCloseable: true,
@@ -75,7 +72,7 @@ const config: Config = {
         },
         {
           type: 'dropdown',
-          label: 'Offline',
+          label: 'Download',
           position: 'right',
           items: [
             {
@@ -116,25 +113,10 @@ const config: Config = {
     },
     footer: {
       style: 'light',
-      links: [], // https://docusaurus.io/docs/api/themes/configuration#footer-links
-      // logo: {
-      //   alt: 'Logo',
-      //   src: 'img/logo.png',
-      //   href: 'https://...',
-      //   width: 160,
-      //   height: 51,
-      // },
       copyright: `Copyright © ${new Date().getFullYear()} Ajahn Brahmavaṃso.
-
       All rights reserved.
-
       Permission to copy, reprint and distribute this publication is hereby given provided no changes are made to the content or layout.
-
       Reproduction in any way for commercial gain is prohibited.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 }
