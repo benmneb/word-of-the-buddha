@@ -173,6 +173,14 @@
   }
 }
 
+.brahm {
+  border-radius: 100%;
+  width: 12rem;
+  margin: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
 /* This is docusaurus's breakpoint */
 @media screen and (max-width: 996px) {
   .home {
