@@ -1,4 +1,4 @@
-## 5. Right Livelihood
+# 5. Right Livelihood
 
 What, now, is right livelihood?
 

@@ -1,6 +1,6 @@
-## 1. Right View
+# 1. Right View
 
-### How to know Right View from Wrong View
+## How to know Right View from Wrong View
 
 <span class="sutta-ref">DN 16, 4.8-11</span> After my _parinibbāna_, some will think that the Dhamma has ended, and you no longer have a teacher. This is wrong. After the Buddha’s _parinibbāna_, the Dhamma and discipline (_vinaya_) will be your teacher.
 
@@ -8,21 +8,21 @@ Suppose someone were to say: “Friends, this is the Buddha’s teaching, the Dh
 
 Or, suppose someone were to say: “Friends, I heard this from a community of senior monastics with distinguished teachers … from many learned elders who uphold a tradition … from one learned elder.” Then you should check this person’s words with the suttas and the discipline. If they agree, then you should conclude that it is the teaching of the Buddha. If it disagrees with the suttas and the discipline, then you should conclude that this one learned elder has wrongly understood the teaching of the Buddha.
 
-### Wrong View
+## Wrong View
 
 What, now, is wrong view?
 
 <span class="sutta-ref">DN 1, 2.13</span> There are some who state: “Whatever is called sight, hearing, smell, taste or touch; that is impermanent, unstable, non-eternal, and liable to change. But what is called ‘mentality’ (_mano_) or ‘mind’ (_citta_) or ‘consciousness’ (_viññāṅa_); that is the permanent essence, stable, eternal, not subject to change, the same forever and ever.”
 
-### Right View
+## Right View
 
 <span class="sutta-ref">DN 22</span> What now is right view?
 
-### The Four Noble Truths
+## The Four Noble Truths
 
 It is the understanding of the four noble truths: suffering, the origin of suffering, the cessation of suffering, and the way of practice leading to the cessation of suffering. This is called right view.
 
-### The Good and the Bad
+## The Good and the Bad
 
 What are the good and the bad and what is their cause?
 
@@ -34,7 +34,7 @@ Refraining from intentionally killing living beings, stealing, and sexual miscon
 
 Renunciation, compassion and wisdom are the roots of “the good”.
 
-### Right View Regarding the Five Components of Existence
+## Right View Regarding the Five Components of Existence
 
 <span class="sutta-ref">SN 22.51</span> You view your body as impermanent, suffering and non-self (not me, not mine, not a permanent essence).<br />
 You regard experience as impermanent, suffering and non-self.<br />
@@ -43,7 +43,7 @@ You regard the will as impermanent, suffering and non-self.<br />
 You regard consciousnesses as impermanent, suffering and non-self.<br />
 That is right view.
 
-### Unprofitable Questions
+## Unprofitable Questions
 
 <span class="sutta-ref">MN 63</span> If anyone should say thus: “I will not become a practising Buddhist until I discover whether this universe is eternal or not, finite or infinite; or whether my permanent essence and my body are the same or my permanent essence is one thing, but my body is another; or whether the Buddha persists after death, does not persist after death, both persists and does not persist after death, or neither persists nor does not persist after death,” that person would die before they found out!
 
@@ -53,13 +53,13 @@ Suppose a person were shot with a gun and medics would come to help them. Then t
 
 <span class="sutta-ref">MN 63</span> For one with the view “life (the universe) is eternal,” the holy life is without meaning (there is no end of suffering whatever you do); and for one with the view “life is not eternal,” again the holy life is without meaning (your existence is going to end anyway). Whether one has the view “the universe is eternal” or the view “the universe is not eternal,” there is rebirth, there is old age, there is death, there is sorrow, crying, pain, unhappiness, and distress, the destruction of which I prescribe in this very life.
 
-### The Five Basic Fetters
+## The Five Basic Fetters
 
 <span class="sutta-ref">MN 64</span> Here, one who has not seen the Dhamma (a _puthujjana_) abides with a mind addicted and attached to a view of a permanent essence, and they do not even seek an escape from the long-standing wrong view of a permanent essence. When that wrong view of a permanent essence has become habitual, it is regarded as a “basic fetter”.
 
 One who abides with a mind addicted and attached to sceptical doubt … to a belief in rites and rituals (as sufficient in themselves to reach awakening) … to desire for the five senses … to aversion ... and they do not even seek an escape from these states—then when these states have become habitual, they are regarded as the “five basic fetters”.
 
-### Unwise Contemplations
+## Unwise Contemplations
 
 <span class="sutta-ref">MN 2</span> One who has not seen the Dhamma (a _puthujjana_) does not understand what things are fit for contemplation and what things are not. Thus, they contemplate on those things unfit for attention and not on those things fit for attention.
 
@@ -67,7 +67,7 @@ This is how you contemplate unwisely: “Did my permanent essence exist in the p
 
 Or else you are inwardly perplexed about the present thus: “Is this my permanent essence? Is this not my permanent essence? What is this permanent essence? How is this permanent essence? Where has this permanent essence come from? Where will it go?”
 
-### The Six Views about the Permanent Essence
+## The Six Views about the Permanent Essence
 
 <span class="sutta-ref">MN 2</span> When you attend unwisely in this way, one of six views arises in you.
 
@@ -78,7 +78,7 @@ Or else you are inwardly perplexed about the present thus: “Is this my permane
 1. or the view “I perceive a permanent essence with what is without a permanent essence” arises in you as true and established (the five khandhas can know an “original mind” existing outside of the five khandhas);
 1. or else you have some such view as this: “It is this permanent essence of mine that speaks and feels and experiences here and there the result of good and bad actions; but this permanent essence of mine is permanent, everlasting, eternal, not subject to change, and it will endure as long as eternity.”
 
-### The Two Extremes and the Middle Doctrine
+## The Two Extremes and the Middle Doctrine
 
 <span class="sutta-ref">SN 12.15</span> “Venerable sir, it is said ‘right view, right view.’ In what way is there right view?”
 
@@ -112,7 +112,7 @@ That question makes no sense. That fire burnt in dependence on its fuel of grass
 
 So too, where does an Awakened One go after death? That question makes no sense.
 
-### Views and Discussions about the Permanent Essence
+## Views and Discussions about the Permanent Essence
 
 <span class="sutta-ref">DN 15</span> Now, one who says: “Experience is my permanent essence” should be told: “There are three kinds of experience: pleasant, painful, and neutral. Which of the three do you consider to be your permanent essence?”
 
@@ -140,7 +140,7 @@ Thus the mind is not the permanent essence; mind-objects, mind-consciousness, ex
 
 But that which is called “mind” (_citta_), or “mentality” (_mano_), or “consciousnesses” (_viññāna_), arises as one thing and ceases as another all the time.
 
-### Wise Contemplations
+## Wise Contemplations
 
 <span class="sutta-ref">MN 2</span> An Awakened One, or one on the path to awakening (an _ariyapuggala_), understands what things are fit for attention and what things are unfit for attention. Thus they do not contemplate things unfit for attention, only those things fit for attention.
 
@@ -149,17 +149,17 @@ One contemplates: “This is suffering;”<br />
 “This is the cessation of suffering;”<br />
 “This is the way leading to the cessation of suffering.”
 
-### The _Sotāpanna_, or “Stream-Winner”
+## The _Sotāpanna_, or “Stream-Winner”
 
 <span class="sutta-ref">MN 22</span> When you contemplate in this way, three fetters are abandoned in you: a view of a permanent essence, sceptical doubt, and belief in rites and rituals (as sufficient in themselves to reach awakening). Those who have abandoned three fetters are all stream-winners, no longer subject to rebirth in a lower realm and headed for full awakening.
 
 <span class="sutta-ref">Dhp 187</span> Absolute rule over the earth, going to heaven, supreme sovereignty over all worlds—the fruit of stream-winning surpasses them all.
 
-#### Causes for the Arising of the Right View of Stream-Winning
+### Causes for the Arising of the Right View of Stream-Winning
 
 <span class="sutta-ref">MN 43</span> \[Venerable Sāriputta:] There are two conditions for the arising of right view: the word of another (an _ariyan_), and “work of the mind that goes back to the source” (_yoniso manasikāra_). There are five factors that build on right view and take it to full awakening: virtue, learning, discussion, stillness and insight.
 
-#### What is the View of a Permanent Essence (_Sakkāya Diṭṭhi_)?
+### What is the View of a Permanent Essence (_Sakkāya Diṭṭhi_)?
 
 <span class="sutta-ref">MN 44.8</span> Friend Visākha, one who is an ariyan cannot regard the body, experience, perception, will or consciousnesses (being the five components of existence) as a permanent essence, nor a permanent essence as possessing any of these
 five components of existence, nor any of the five components of existence as within a permanent essence, nor a permanent essence as within any of the five components of existence. That is how _sakkāya diṭṭhi_ comes not to be.
@@ -168,7 +168,7 @@ Explanation from the _Paṭisambhidāmagga_ 1.144-145:
 
 > One who is an _ariyan_ does not regard the mind as a permanent essence—like the flame and hue of a lamp; does not regard the mind as possessing a permanent essence—like a tree has a shadow; does not regard the mind as within a permanent essence—like the scent in a flower; and does not regard a permanent essence as within the mind—like a jewel in a casket (The mind is part of the five components of existence, the sixth type of consciousness.)
 
-#### “Word of Another” Means the Word of an _Ariyan_
+### “Word of Another” Means the Word of an _Ariyan_
 
 <span class="sutta-ref">AN 10.76</span> One who is shameless, reckless and heedless will be unable to abandon disrespect, being difficult to admonish and keeping bad company.
 
@@ -188,7 +188,7 @@ One who has not abandoned the first three of the five basic fetters will be unab
 
 One who has not abandoned desire, aversion and delusion, will not be able to abandon birth, old age and death.
 
-#### Stream-Winning and the Seven in the Water Simile
+### Stream-Winning and the Seven in the Water Simile
 
 <span class="sutta-ref">AN 7.15</span> There are these seven kinds of persons similar to those in the water:
 
@@ -200,13 +200,13 @@ One who has not abandoned desire, aversion and delusion, will not be able to aba
 1. The one who feels solid earth underfoot—meaning the non-returner.
 1. The one who is safe on dry land—meaning the arahant.
 
-#### The _Jhānānāgāmī_ or “Jhāna-Non-Returner”
+### The _Jhānānāgāmī_ or “Jhāna-Non-Returner”
 
 <span class="sutta-ref">AN 3.94</span> Just as when the sky is clear and cloudless, the sun, ascending in the sky, dispels all darkness as it shines and radiates; so too, when the dust-free, stainless Dhamma-eye arises in you, then, together with the arising of vision, you abandon three fetters: the view of a permanent essence, doubt, and wrong grasp of rites and rituals.
 
 Afterward, when you restrain two states—wanting and aversion—then, totally secluded from the five senses, secluded from the five hindrances, you enter and dwell for a while in the first jhāna, which consists of rapture and pleasure born of freedom from the five senses, accompanied by movements of the mind onto the bliss and holding the bliss. If you should pass away while in jhāna, there’s no fetter bound by which you might ever return to this world.
 
-#### Scent of ‘I am’
+### Scent of ‘I am’
 
 <span class="sutta-ref">SN 22.89</span> \[Elder bhikkhus:] “Friend Khemaka, when you speak of this ‘I am’ … what is it that you speak of as ‘I am’?”
 
@@ -253,7 +253,7 @@ and, after a while, the residual smell of the soap powder would vanish.”
 
 As you dwell contemplating dependency on causes of the five components of existence, the residual thought ‘I am’, the desire ‘I am’, the underlying tendency ‘I am’, that had not yet been uprooted—this comes to be uprooted.”
 
-### Free from All Speculative Views
+## Free from All Speculative Views
 
 <span class="sutta-ref">MN 72</span> \[Vacchagotta:] “Then does the Buddha hold any speculative belief at all?”
 
@@ -262,7 +262,7 @@ their origin, such their disappearance.’”
 
 “Therefore, I say, with the destruction, fading away, cessation, giving up, and relinquishing of all conceptual proliferations, all philosophising, all I-making, mine-making, and the underlying tendency to assuming a permanent essence, the Buddha is liberated through exhausting the fuel that drives rebirth.”
 
-### The Three Characteristics
+## The Three Characteristics
 
 <span class="sutta-ref">AN 3.136</span> Whether Buddhas arise or not, there persists that law, that stable Dhamma, that fixed course of the Dhamma: “All phenomena that arise from a cause (all _saṅkhārā_) are impermanent, suffering and not a permanent essence.”
 
@@ -319,7 +319,7 @@ But one who knows and sees form … experience … perception … will … consc
 
 <span class="sutta-ref">SN 12.35</span> If there is the view, “The permanent essence and the body are the same,” there is no living of the holy life; and if there is the view, “The permanent essence is one thing, the body is another,” there is no living of the holy life. Without veering towards either of these extremes, the Buddha teaches the Dhamma by the middle: dependent origination and dependent cessation.
 
-### Dependent Origination
+## Dependent Origination
 
 <span class="sutta-ref">MN 28.38</span> One who sees dependent origination and cessation sees the Dhamma; one who sees the Dhamma sees dependent origination and cessation.
 

@@ -1,8 +1,8 @@
-## 8. Right Stillness (Jhāna)
+# 8. Right Stillness (Jhāna)
 
 <span class="sutta-ref">MN 36</span> I remembered a time when my father was occupied, while I was sitting in the cool shade of a rose-apple tree, having passed beyond the five senses and free from unwholesome states, I entered and abided in the first jhāna. I thought “Could that be the path to awakening (_bodhi_)?” Then the realisation arose: “That jhāna is indeed the path to awakening.”
 
-### The Four Jhānas
+## The Four Jhānas
 
 Having abandoned the five hindrances, totally free from the five senses, free from unwholesome states (the hindrances), you enter upon and abide in the first jhāna, wherein the mind moves onto the object and holds onto it, the object being joy and pleasure caused by being totally free from the five senses.
 
@@ -35,13 +35,13 @@ There is no wisdom for one without jhāna.<br />
 For one who has both jhāna and wisdom,<br />
 They are in the presence of _nibbāna_!
 
-### Summing Up of the Noble Eightfold Path
+## Summing Up of the Noble Eightfold Path
 
 <span class="sutta-ref">SN 56.11</span> This is that middle way awakened to by the Buddha, which gives rise to vision, which gives rise to knowledge, which leads to peace, to direct knowledge, to awakening, to _nibbāna_.
 
 <span class="sutta-ref">Dhp 275</span> Enter then upon this path; you’ll make an end of suffering.
 
-### _Nibbāna_
+## _Nibbāna_
 
 <span class="sutta-ref">MN 39</span> When you know and see thus, the mind is no longer pulled out into the world of the five senses (it is liberated from the wanting _āsava_); it no longer flows out just to be (it is liberated from the being _āsava_), and it no longer leaks out because of delusion (it is liberated from the delusion _āsava_). When liberation occurs, the knowledge of liberation invariably follows.
 
@@ -52,7 +52,7 @@ This is your last life;<br />
 Now there will be no renewal of existence.<br />
 For this is the supreme noble wisdom, namely, the knowledge of the destruction of all suffering.
 
-### The True Goal
+## The True Goal
 
 <span class="sutta-ref">MN 29</span> So this holy life does not have gain, honour and fame for its main purpose, nor the attainment of virtue for its main purpose, nor the attainment of jhāna as its main purpose, nor insight for its main purpose.
 

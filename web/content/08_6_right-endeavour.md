@@ -1,16 +1,16 @@
-## 6. Right Endeavour
+# 6. Right Endeavour
 
 What, now, is right endeavour?
 
 <span class="sutta-ref">AN 4.13-14</span> There are these four right endeavours: restraint, abandonment, development, preservation.
 
-### The Endeavour of Restraint
+## The Endeavour of Restraint
 
 And what is the endeavour of restraint? When you see an object, you do not let yourself get sucked in by any characteristics or features that generate defilements. If you left the faculty of sight unrestrained, unskilful states of wanting and aversion would afflict you. Instead, you practise wisdom when seeing, you guard the faculty of sight, and you undertake the restraint of sight.
 
 Having heard a sound … Having noticed a smell … Having sensed a taste … Having felt a bodily feeling … Having cognised something in the mind, you do not let yourself get sucked in by any characteristics or features that generate defilements. If you left the mind faculty unrestrained, unskilful states of wanting and aversion would afflict you. Instead, you practise wisdom with the mind, you guard the mind, and you undertake the restraint of the mind. This is called the endeavour to restrain.
 
-### The Endeavour to Abandon
+## The Endeavour to Abandon
 
 And what is the endeavour to abandon? Here, you do not maintain an arisen motivation of wanting; you abandon it, let it go, renounce it, and bring it to cessation.
 
@@ -26,7 +26,7 @@ This is called the endeavour to abandon.
 1. You should give attention to stilling the causes of those motives…
 1. You should clench your teeth with your tongue pressed against the roof of your mouth, and beat down, constrain and crush any such afflicting unwholesome motives. With the disappearance of them, your mind becomes internally steady, settled, unified and still.
 
-### The Endeavour to Develop
+## The Endeavour to Develop
 
 <span class="sutta-ref">AN 4.13-14</span> And what is the endeavour to develop?
 
@@ -44,7 +44,7 @@ every one of which is based upon seclusion (physical and mental), fading away, a
 
 This is called the endeavour to develop.
 
-### The Endeavour to Maintain
+## The Endeavour to Maintain
 
 And what is the endeavour to maintain?
 

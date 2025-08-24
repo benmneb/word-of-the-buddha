@@ -1,4 +1,4 @@
-## 2. Right Motivation
+# 2. Right Motivation
 
 What, now, is right motivation?
 

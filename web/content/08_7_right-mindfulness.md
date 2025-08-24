@@ -1,8 +1,8 @@
-## 7. Right Mindfulness
+# 7. Right Mindfulness
 
 What, now, is right mindfulness?
 
-### The Four Focuses of Mindfulness
+## The Four Focuses of Mindfulness
 
 <span class="sutta-ref">MN 10</span> The four focuses of mindfulness lead in one direction only, to the purification of beings, to going beyond sadness and crying, to the disappearance of physical and mental suffering, for the attainment of the true way, for the realisation of _nibbāna_. What are the four?
 
@@ -11,11 +11,11 @@ What, now, is right mindfulness?
 1. Having restrained the five hindrances, you abide aware of the mind (_citta_), energised, knowing the purpose of what you are doing, and mindful.
 1. Having restrained the five hindrances, you abide aware of mind-objects (_dhammā_), energised, knowing the purpose of what you are doing, and mindful.
 
-### Mindfulness of Body
+## Mindfulness of Body
 
 And how are you aware of the body?
 
-#### Mindfulness of Breathing
+### Mindfulness of Breathing
 
 You go to a quiet secluded place, sit down comfortably, and give priority to establishing mindfulness. Then, mindful, you breathe in, mindful, you breathe out.
 
@@ -37,7 +37,7 @@ Or else mindfulness that “it is just a body” (impermanent, suffering, and no
 
 That is one way that you are mindful of the body.
 
-#### The Four Postures
+### The Four Postures
 
 When walking, you are aware in the present that: “I am walking,” when standing … sitting … or lying down, you are aware in the present that: “I am lying down.” Thus you maintain present-moment awareness of however your body is disposed.
 
@@ -45,7 +45,7 @@ In this way you are aware of your own body, or you are aware that the bodies of 
 
 That is another way that you are mindful of the body.
 
-#### Full Comprehension of the Purpose
+### Full Comprehension of the Purpose
 
 You act in full comprehension of the purpose when going forward and returning; you act in full comprehension of the purpose when looking ahead and looking away, when flexing and extending your limbs, when wearing your clothes and carrying things; you act in full comprehension of the purpose regarding eating, drinking, defecating and urinating, walking, standing, sitting, sleeping, being awake, talking, and keeping silent.
 
@@ -53,19 +53,19 @@ In this way you are aware of your own body, or you are aware that the bodies of 
 
 That is another way that you are mindful of the body.
 
-#### The Bodily Parts
+### The Bodily Parts
 
 You review your body from head to toe, bounded by skin, as made up of many kinds of parts: blood and bones, tissues and organs … Just as though there were a full shopping bag with many kinds of groceries, such as bread, potatoes, fruit and vegetables—so too, you review this same body … as full of many parts thus: “In this body there are hairs, bones … excrement and urine.”
 
 … That is another way that you are mindful of the body.
 
-#### Elements
+### Elements
 
 You review your body by way of the elements thus: “In this body there are the earth element, the water element, the fire element, and the air element.”
 
 … That is another way that you are mindful of the body.
 
-#### The Nine Charnel Ground Contemplations
+### The Nine Charnel Ground Contemplations
 
 1. You see a corpse thrown aside in a charnel ground, up to three days old, bloated, livid, and oozing matter. Then you reflect that your own body is of the same nature, it may become like that, it is not exempt from that fate.
 1. Or you see a corpse thrown aside in a charnel ground, being devoured by birds, animals or maggots. Then you reflect that your own body is of the same nature, it may become like that, it is not exempt from that fate.
@@ -85,7 +85,7 @@ Or else mindfulness that “it is just a body” (impermanent, suffering and not
 
 That is another way that you are mindful of the body.
 
-#### Benefits of Mindfulness of the Body
+### Benefits of Mindfulness of the Body
 
 <span class="sutta-ref">MN 119</span> When mindfulness of the body has been repeatedly practised, and developed, these ten benefits may be expected.
 
@@ -100,7 +100,7 @@ That is another way that you are mindful of the body.
 1. With clairvoyance (the “divine eye”), you see beings passing away and reappearing, inferior and superior, fair and ugly, fortunate and unfortunate, and one understands how beings are reborn according to their actions (kamma).
 1. By realising for yourself with direct experience, in this very life, you enter upon and abide in the deliverance of mind and deliverance by wisdom; you are an awakened one.
 
-### Arising and Passing Away (Rise and Fall)
+## Arising and Passing Away (Rise and Fall)
 
 <span class="sutta-ref">SN 47.42</span> I will teach you the origination (_samudaya_) and the passing away (_atthaṅgama_) of the four focuses of mindfulness.
 
@@ -109,7 +109,7 @@ That is another way that you are mindful of the body.
 1. Supported by objects of consciousness (_nāma-rūpa_), there is the origination of the citta. With the cessation of _nāma-rūpa_, the mind (_citta_) ceases.
 1. Supported by attention, there is the origination of mind-objects. With the cessation of attention, mind-objects cease.
 
-### Mindfulness of Experience
+## Mindfulness of Experience
 
 <span class="sutta-ref">MN 10</span> How are you mindful of experience (_vedanā_)?
 
@@ -127,7 +127,7 @@ Or else mindfulness that “it is just experience” (impermanent, suffering and
 
 That is how a meditator abides mindful of experience.
 
-### Mindfulness of the _Citta_ (Mind)
+## Mindfulness of the _Citta_ (Mind)
 
 How are you mindful of the mind?
 
@@ -143,11 +143,11 @@ Or else mindfulness that “it is just a mind” (impermanent, suffering, and no
 
 This is how you are mindful of the mind.
 
-### Mindfulness of Mind-Objects
+## Mindfulness of Mind-Objects
 
 How are you mindful of mind-objects?
 
-#### The Five Hindrances
+### The Five Hindrances
 
 You are mindful of mind-objects in terms of the five hindrances.
 
@@ -169,7 +169,7 @@ Or suppose you had to travel along a dangerous road across a wilderness, but lat
 
 So too, when these five hindrances were present, you look back on them as: a debt (wanting), a disease (aversion), a prison (dullness and drowsiness), slavery (restlessness and remorse), and a dangerous road across a wilderness (doubt). But when these five hindrances have been abandoned, you regard that as freedom from debt, as health, release from a prison, freedom from slavery, and reaching a land of safety.
 
-#### The Seven Awakening Factors
+### The Seven Awakening Factors
 
 <span class="sutta-ref">MN 10</span> Or, you are mindful of mind-objects in terms of the seven awakening factors.
 
@@ -181,7 +181,7 @@ So too, when these five hindrances were present, you look back on them as: a deb
 1. When the awakening factor of stillness is present in you …
 1. When the awakening factor of equanimity is present in you, you understand that it is present. But when the awakening factor of equanimity was not present in you, you understand that it was absent. You also understand how there comes to be the arising of the absent awakening factor of equanimity, and how it comes to fulfilment by development.
 
-#### The Five Components of Existence
+### The Five Components of Existence
 
 Or, you are mindful of mind-objects in terms of the five components of existence. You are mindful—
 
@@ -195,7 +195,7 @@ such is will, such its origin, such its disappearance;
 
 such are consciousnesses, such their origin, such their disappearance.”
 
-#### The Six Sense Bases
+### The Six Sense Bases
 
 Or, you are mindful of mind-objects in terms of the six internal and external sense bases.
 
@@ -203,11 +203,11 @@ You understand sights, understand forms, understand the fetter (wanting) that ar
 
 And so with the other five sense bases.
 
-#### The Four Noble Truths
+### The Four Noble Truths
 
 Or, you are mindful of mind-objects (_dhammā_) in terms of the four noble truths. You understand as it actually is: this is suffering; this is the origin of suffering; this is the cessation of suffering; this is the way leading to the cessation of suffering.
 
-#### Summary of Mind-Objects
+### Summary of Mind-Objects
 
 In these ways you are aware of mind-objects, or you are aware that others’ mind-objects are of the same nature as yours, or you abide aware of both your own and others’ mind-objects.
 
@@ -217,15 +217,15 @@ Or else mindfulness that “these are just mind-objects” (impermanent, sufferi
 
 This is how you are mindful of mind-objects.
 
-### Summary of _Satipaṭṭhāna_
+## Summary of _Satipaṭṭhāna_
 
 So it was with reference to this that it was said: The four focuses of mindfulness (_satipaṭṭhāna_) lead in one direction only, to the purification of beings, to going beyond sadness and crying, to the disappearance of physical and mental suffering, for the attainment of the true way, for the realisation of _nibbāna_.
 
-### _Nibbāna_ through _Ānāpānassati_
+## _Nibbāna_ through _Ānāpānassati_
 
 <span class="sutta-ref">MN 118</span> When mindfulness of breathing is developed and cultivated, it is of great fruit and great benefit. When mindfulness of breathing is developed and cultivated, it completes the four focuses of mindfulness. When the four focuses of mindfulness are developed and cultivated, they complete the seven awakening factors. When the seven awakening factors are developed and cultivated, they complete true knowledge and deliverance (awakening).
 
-#### Mindfulness of Breathing Completes the Four Focuses of Mindfulness
+### Mindfulness of Breathing Completes the Four Focuses of Mindfulness
 
 And how does mindfulness of breathing, developed and cultivated, complete the four focuses of mindfulness?
 
@@ -249,7 +249,7 @@ When you learn to explore things ceasing in breath meditation;<br />
 When you learn to explore relinquishing things in breath meditation;<br />
 —on those occasions you are mindful of mind-objects (_dhammā_), having restrained the five hindrances, energised, fully aware of the purpose, and mindful. Having seen with wisdom the impermanence, fading away, cessation and relinquishment of the five hindrances, you are mindful with equanimity. That is why on that occasion you are mindful of mind-objects, having restrained the five hindrances, energised, fully aware of the purpose, and mindful. That is how mindfulness of breathing, developed and cultivated, completes the four focuses of mindfulness.
 
-#### Four Focuses of Mindfulness Complete the Seven Awakening Factors
+### Four Focuses of Mindfulness Complete the Seven Awakening Factors
 
 How do the four focuses of mindfulness, developed and cultivated, complete the seven awakening factors?
 
@@ -263,7 +263,7 @@ How do the four focuses of mindfulness, developed and cultivated, complete the s
 
 That is how the four focuses of mindfulness, developed and cultivated, complete the seven awakening factors.
 
-#### Seven Awakening Factors Complete True Knowledge and Deliverance
+### Seven Awakening Factors Complete True Knowledge and Deliverance
 
 How do the seven awakening factors, developed and cultivated, complete true knowledge and deliverance (full awakening)?
 
