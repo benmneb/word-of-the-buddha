@@ -133,6 +133,7 @@
 .home {
   display: flex;
   font-weight: 600;
+  font-size: 120%;
 
   h1,
   h2,
