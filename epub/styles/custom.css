@@ -148,3 +148,12 @@ dd {
 dd p:first-of-type {
   margin-top: 0;
 }
+
+/* Mug shot on About the Author page */
+.brahm {
+  border-radius: 100%;
+  width: 12rem;
+  margin: auto;
+  display: block;
+  margin-bottom: 2rem;
+}
