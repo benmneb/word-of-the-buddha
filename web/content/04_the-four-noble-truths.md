@@ -10,24 +10,24 @@ But when my penetration and insight into these four noble truths as they really 
 
 <div className="alpha-numeric-list">
 1.
-  1. This is the noble truth of suffering (dukkha).
-  1. Suffering is to be fully understood.
-  1. Suffering has been fully understood.
+    1. This is the noble truth of suffering (dukkha).
+    1. Suffering is to be fully understood.
+    1. Suffering has been fully understood.
 
 1.
-  1. This is the noble truth of the origin of suffering: wanting (_taṅha_) causing rebirth.
-  1. Wanting (the origin of suffering) is to be abandoned.
-  1. Wanting (the origin of suffering) has been abandoned.
+    1. This is the noble truth of the origin of suffering: wanting (_taṅha_) causing rebirth.
+    1. Wanting (the origin of suffering) is to be abandoned.
+    1. Wanting (the origin of suffering) has been abandoned.
 
 1.
-  1. This is the noble truth of the cessation of suffering: extinguishing (_nirodha_) that wanting.
-  1. The end of wanting (the cessation of suffering) is to be realised.
-  1. The end of wanting (the cessation of suffering) has been realised.
+    1. This is the noble truth of the cessation of suffering: extinguishing (_nirodha_) that wanting.
+    1. The end of wanting (the cessation of suffering) is to be realised.
+    1. The end of wanting (the cessation of suffering) has been realised.
 
 1.
-  1. This is the noble truth of the way leading to the cessation of suffering: the noble eightfold path (_ariya aṭṭhaṅgika magga)_.
-  1. The noble eightfold path (the way to the cessation of suffering) is to be developed.
-  1. The noble eightfold path (the way to the cessation of suffering) has been developed.
+    1. This is the noble truth of the way leading to the cessation of suffering: the noble eightfold path (_ariya aṭṭhaṅgika magga)_.
+    1. The noble eightfold path (the way to the cessation of suffering) is to be developed.
+    1. The noble eightfold path (the way to the cessation of suffering) has been developed.
 </div>
 
 Thus, in regard to things unheard before in this generation, there arose in me vision, knowledge, wisdom, true knowledge, and light.

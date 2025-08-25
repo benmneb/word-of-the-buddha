@@ -64,6 +64,9 @@ nav.menu {
 }
 
 /* For the custom grouped-list styled like 1a 1b 1c 2a 2b 2c etc */
+.alpha-numeric-list {
+  font-size: 120%;
+}
 .alpha-numeric-list ol,
 .alpha-numeric-list ol ol {
   list-style: none;
@@ -122,7 +125,8 @@ nav.menu {
   font-weight: 600;
 
   p:not(dd p),
-  dl {
+  dl,
+  ol:not(.alpha-numeric-list ol) {
     font-size: 120%;
   }
 
