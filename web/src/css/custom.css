@@ -160,10 +160,11 @@ nav.menu {
     height: calc(100vh - 2rem);
     align-items: center;
     justify-content: center;
+    margin-right: 0;
   }
 
   img {
-    max-height: 100%;
+    max-height: calc(100% - 2rem);
     border-radius: 1rem;
     object-fit: contain;
     filter: blur(5px);
@@ -200,9 +201,10 @@ nav.menu {
       min-height: 100vh;
     }
 
-    /*figure {
-    display: none;
-  }*/
+    figure {
+      /*display: none;*/
+      margin-right: revert;
+    }
   }
 }
 
