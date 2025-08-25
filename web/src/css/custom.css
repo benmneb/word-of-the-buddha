@@ -5,6 +5,7 @@
     Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif,
     Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol;
+  /* TODO: revisit this and check with cover image, then update manifest anad config with change */
   /* Test colours here: https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
   --ifm-color-primary: #a36725;
   --ifm-color-primary-dark: #935d21;

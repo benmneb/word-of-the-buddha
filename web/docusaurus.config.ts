@@ -5,7 +5,7 @@ const config: Config = {
   title: 'The Word of the Buddha | by Ajahn Brahm',
   tagline:
     'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
-  favicon: 'img/favicon.ico',
+  favicon: 'icons/favicon.svg',
 
   future: {
     v4: true, // https://docusaurus.io/docs/api/docusaurus-config#future
@@ -60,10 +60,10 @@ const config: Config = {
     navbar: {
       hideOnScroll: true,
       title: 'The Word of the Buddha',
-      // logo: {
-      //   alt: 'Word of the Buddha',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'Word of the Buddha',
+        src: 'icons/favicon.svg',
+      },
       items: [
         {
           type: 'html',
@@ -76,10 +76,6 @@ const config: Config = {
           label: 'Download',
           position: 'right',
           items: [
-            {
-              label: 'PWA',
-              href: 'https://archive.org', // TODO
-            },
             {
               label: 'EPUB',
               href: 'https://archive.org', // TODO
@@ -120,6 +116,69 @@ const config: Config = {
       Reproduction in any way for commercial gain is prohibited.`,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: process.env.NODE_ENV === 'development',
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/icons/favicon.svg',
+            type: 'image/svg+xml',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#a36725',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#a36725',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/icons/apple-touch-icon.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/icons/icon-512x512.webp',
+            color: '#a36725',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/icons/icon-ms-tile-square.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#a36725',
+          },
+        ],
+      },
+    ],
+  ],
 }
 
 export default config
