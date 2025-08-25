@@ -120,9 +120,9 @@ nav.menu {
   line-height: 1.75;
   font-family: var(--system-serif);
   font-weight: 600;
-  /*font-size: 120%;*/
 
-  p {
+  p:not(dd p),
+  dl {
     font-size: 120%;
   }
 
@@ -179,6 +179,7 @@ nav.menu {
   }
 }
 
+/* Mug shot on About the Author page */
 .brahm {
   border-radius: 100%;
   width: 12rem;
@@ -205,4 +206,25 @@ nav.menu {
 
 .navbar__search {
   margin-left: -8px !important;
+}
+
+/* Definition lists, on Abbreviations and Glossary pages */
+dl.abbreviations {
+  display: grid;
+  grid-gap: 4px 16px;
+  grid-template-columns: max-content;
+
+  dd {
+    margin: 0;
+    grid-column-start: 2;
+  }
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
