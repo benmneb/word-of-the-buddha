@@ -97,7 +97,6 @@ const config: Config = {
           'aria-label': 'GitHub repository',
           position: 'right',
         },
-        // TODO: Add seearch: https://docusaurus.io/docs/search
         {
           type: 'search',
           position: 'right',
@@ -188,6 +187,27 @@ const config: Config = {
       {
         debug: true,
         mode: 'auto',
+      },
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true, // Recommended as long-term-cache of index file is possible.
+        searchBarPosition: 'right',
+        language: ['en'],
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        removeDefaultStemmer: true, // Enable this if you want to be able to search for any partial word at the cost of search performance.
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchBarShortcut: true,
+        searchBarShortcutKeymap: 's', // Use 'S' key to focus search bar (default is "mod+k")
+        searchBarShortcutHint: false,
+        fuzzyMatchingDistance: 1,
       },
     ],
   ],

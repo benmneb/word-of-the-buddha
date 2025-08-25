@@ -198,3 +198,7 @@
   }*/
   }
 }
+
+.navbar__search {
+  margin-left: -8px !important;
+}
