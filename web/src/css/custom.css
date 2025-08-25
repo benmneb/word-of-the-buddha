@@ -166,6 +166,8 @@ nav.menu {
     max-height: 100%;
     border-radius: 1rem;
     object-fit: contain;
+    filter: blur(5px);
+    transition: filter 0.5s ease-out;
   }
 
   hgroup {
