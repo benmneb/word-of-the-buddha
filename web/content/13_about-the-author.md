@@ -1,6 +1,6 @@
 # About the Author
 
-<img src="/img/brahm.png" alt="Ajahn Brahm" class="brahm" />
+<img src="/img/brahm.png" alt="Ajahn Brahm" className="brahm" />
 
 Ajahn Brahm, born into a working-class family in London in 1951, graduated with first-class honors in theoretical physics from Cambridge University. He is the abbot of Bodhinyana Monastery in Serpentine, Western Australia, and serves as the spiritual advisor to Bodhinyana International Foundation in Hong Kong, among other leadership roles worldwide.
 

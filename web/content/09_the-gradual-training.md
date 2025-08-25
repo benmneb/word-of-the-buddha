@@ -2,7 +2,7 @@
 
 ## Arising of Buddha and Dhamma
 
-<span class="sutta-ref">MN 27</span> A Buddha appears in the world, accomplished (arahant), fully awakened (_sammāsambuddho_), perfect in true knowledge and conduct (_vijjā-caraṇa-sampanno_), well liberated (_sugato_), knower of worlds (_lokavidū_), incomparable teacher of those who can be taught (_anuttaro purisadamma-sārathi_), teacher of gods and humans (_satthā deva-manussānaṇ_), the awakened one (_buddho_), the master (_bhagavā_).
+<span className="sutta-ref">MN 27</span> A Buddha appears in the world, accomplished (arahant), fully awakened (_sammāsambuddho_), perfect in true knowledge and conduct (_vijjā-caraṇa-sampanno_), well liberated (_sugato_), knower of worlds (_lokavidū_), incomparable teacher of those who can be taught (_anuttaro purisadamma-sārathi_), teacher of gods and humans (_satthā deva-manussānaṇ_), the awakened one (_buddho_), the master (_bhagavā_).
 
 With his own direct knowledge, he has realised this universe with its gods, this world with all its beings; and he makes it known to others.
 
@@ -10,13 +10,13 @@ He teaches the Dhamma good in the beginning, good in the middle, and good in the
 
 ## Confidence
 
-<span class="sutta-ref">MN 27</span> You hear that Dhamma. On hearing the Dhamma you acquire confidence in the Buddha. Possessing that faith, you consider thus: “Household life is troublesome and busy; life as a monastic is free and relaxed. It is not easy, while living in a house, to lead the holy life utterly perfect and pure. Suppose I shave off my hair, put on the orange robe, and go forth from the worldly life into monastic life.”
+<span className="sutta-ref">MN 27</span> You hear that Dhamma. On hearing the Dhamma you acquire confidence in the Buddha. Possessing that faith, you consider thus: “Household life is troublesome and busy; life as a monastic is free and relaxed. It is not easy, while living in a house, to lead the holy life utterly perfect and pure. Suppose I shave off my hair, put on the orange robe, and go forth from the worldly life into monastic life.”
 
 On a later occasion, having given away all your wealth, abandoning your circle of relatives and friends, you shave off your hair, put on the orange robe, and go forth from the home life into monastic life.
 
 ## Virtue
 
-<span class="sutta-ref">MN 27</span> When you have gone forth, you train in the monastic way of life:
+<span className="sutta-ref">MN 27</span> When you have gone forth, you train in the monastic way of life:
 
 You abstain from killing living beings; with rod and weapon laid aside, conscientious, merciful, you live compassionate to all living beings.
 
@@ -58,13 +58,13 @@ You abstain from wounding, murdering, imprisoning, extortion, plunder, and viole
 
 ## Contentment
 
-<span class="sutta-ref">MN 27</span> You become content with patched robes to protect your body and with almsfood to maintain your stomach; and wherever you go, you travel taking only these with you. Just as a bird, wherever it goes, flies with its wings as its only burden, so too you become content with patched robes to protect this body and with almsfood to maintain your stomach; and wherever you go, you travel taking only these with you.
+<span className="sutta-ref">MN 27</span> You become content with patched robes to protect your body and with almsfood to maintain your stomach; and wherever you go, you travel taking only these with you. Just as a bird, wherever it goes, flies with its wings as its only burden, so too you become content with patched robes to protect this body and with almsfood to maintain your stomach; and wherever you go, you travel taking only these with you.
 
 When you follow this noble virtue and contentment, you experience within yourself a delightful bliss, the joy of being blameless.
 
 ## Restraint of the Senses
 
-<span class="sutta-ref">MN 27</span> When you see an object, you do not let yourself get sucked in by any characteristics or features that generate defilements. Since, if you left the faculty of sight unrestrained, unskilful states of wanting and aversion would afflict you, instead, you practise wisdom when seeing, you guard the faculty of sight, and you undertake the restraint of sight.
+<span className="sutta-ref">MN 27</span> When you see an object, you do not let yourself get sucked in by any characteristics or features that generate defilements. Since, if you left the faculty of sight unrestrained, unskilful states of wanting and aversion would afflict you, instead, you practise wisdom when seeing, you guard the faculty of sight, and you undertake the restraint of sight.
 
 Having heard a sound … Having noticed a smell … Having sensed a taste … Having felt a bodily feeling … Having cognised something in the mind, you do not let yourself get sucked in by any characteristics or features that generate defilements. Since, if you left the mind faculty unrestrained, unskilful states of wanting and aversion would afflict you, instead, you practise wisdom with the mind, you guard the mind, and you undertake the restraint of the mind.
 
@@ -72,11 +72,11 @@ When you follow this noble restraint of the senses, you experience within yourse
 
 ## Full Comprehension of the Purpose
 
-<span class="sutta-ref">MN 27</span> You act in full comprehension of the purpose when going forward and returning; you act in full comprehension of the purpose when looking ahead and looking away, when flexing and extending your limbs, when wearing your clothes and carrying things; you act in full comprehension of the purpose regarding eating, drinking, defecating and urinating, walking, standing, sitting, sleeping, being awake, talking, and keeping silent.
+<span className="sutta-ref">MN 27</span> You act in full comprehension of the purpose when going forward and returning; you act in full comprehension of the purpose when looking ahead and looking away, when flexing and extending your limbs, when wearing your clothes and carrying things; you act in full comprehension of the purpose regarding eating, drinking, defecating and urinating, walking, standing, sitting, sleeping, being awake, talking, and keeping silent.
 
 ## Meditation
 
-<span class="sutta-ref">MN 27</span> When you have developed this noble virtue, this noble restraint of the sense faculties, and this noble full comprehension of the purpose, you go to a secluded dwelling place such as the forest, the foot of a tree, a mountain, a ravine, a hillside cave, a charnel ground, a jungle thicket, an open space, or a heap of straw.
+<span className="sutta-ref">MN 27</span> When you have developed this noble virtue, this noble restraint of the sense faculties, and this noble full comprehension of the purpose, you go to a secluded dwelling place such as the forest, the foot of a tree, a mountain, a ravine, a hillside cave, a charnel ground, a jungle thicket, an open space, or a heap of straw.
 
 You sit down, folding your legs crosswise, straightening the body, and establishing mindfulness as a priority.
 

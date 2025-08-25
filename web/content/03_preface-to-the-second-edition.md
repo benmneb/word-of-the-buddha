@@ -8,6 +8,6 @@ Some passages from the first edition have been lightly abridged. This is mainly 
 
 We hope you enjoy this second edition of _The Word of the Buddha_.
 
-<div class="text-right">
+<div className="text-right">
 **Bhante Kimbila / Bhante Dayālu, 2025**
 </div>

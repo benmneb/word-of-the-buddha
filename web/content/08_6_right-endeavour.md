@@ -6,7 +6,7 @@ slug: 'right-endeavour'
 
 What, now, is right endeavour?
 
-<span class="sutta-ref">AN 4.13-14</span> There are these four right endeavours: restraint, abandonment, development, preservation.
+<span className="sutta-ref">AN 4.13-14</span> There are these four right endeavours: restraint, abandonment, development, preservation.
 
 ## The Endeavour of Restraint
 
@@ -22,7 +22,7 @@ You do not indulge an arisen motivation of aversion … an arisen motivation of 
 
 This is called the endeavour to abandon.
 
-<span class="sutta-ref">MN 20</span> When you are mindful of some object, and there arise in you afflicting unwholesome motivations connected with desire, aversion and delusion, then:
+<span className="sutta-ref">MN 20</span> When you are mindful of some object, and there arise in you afflicting unwholesome motivations connected with desire, aversion and delusion, then:
 
 1. You should give attention to some other object that generates wholesome mind states. Thus, unwholesome states are abandoned and subside. With their disappearance, your mind becomes internally steady, settled, unified and still.
 1. You should examine the danger in those unwholesome motives…
@@ -32,7 +32,7 @@ This is called the endeavour to abandon.
 
 ## The Endeavour to Develop
 
-<span class="sutta-ref">AN 4.13-14</span> And what is the endeavour to develop?
+<span className="sutta-ref">AN 4.13-14</span> And what is the endeavour to develop?
 
 Here, you develop:
 
@@ -56,7 +56,7 @@ Here, you keep in mind an arisen meditation object that generates stillness (_sa
 
 This is called the endeavour to maintain.
 
-<span class="sutta-ref">AN 4.14</span> Restraining and abandoning, developing and maintaining,<br />
+<span className="sutta-ref">AN 4.14</span> Restraining and abandoning, developing and maintaining,<br />
 These four endeavours were taught by the Buddha.<br />
 By these means a diligent meditator, in this very life,<br />
 Can attain the destruction of suffering.

@@ -1,6 +1,6 @@
 # I. The Noble Truth of Suffering
 
-<span class="sutta-ref">DN 22</span> And what is the noble truth of suffering? Rebirth (_jāti_) is suffering; old age is suffering; death is suffering; sorrow, lamentation, pain, unhappiness and distress are suffering; experiencing what is unpleasant is suffering; missing what is pleasing is suffering; not getting what one wants is suffering. In short, the five components of existence (the “five _khandha_” that fully describe your body and mind) are suffering.
+<span className="sutta-ref">DN 22</span> And what is the noble truth of suffering? Rebirth (_jāti_) is suffering; old age is suffering; death is suffering; sorrow, lamentation, pain, unhappiness and distress are suffering; experiencing what is unpleasant is suffering; missing what is pleasing is suffering; not getting what one wants is suffering. In short, the five components of existence (the “five _khandha_” that fully describe your body and mind) are suffering.
 
 And what is rebirth? In whatever type of beings, of whatever species of beings, there is rebirth, coming-to-be, coming forth, the appearance of the khandhas, the acquisition of the senses, that is called rebirth.
 
@@ -28,15 +28,15 @@ In beings subject to old age, to disease, to death, to sorrow, lamentation, pain
 
 ## The Five Components of Existence (The _Khandhas_)
 
-<span class="sutta-ref">DN 22</span> And what is meant by “in brief, the five grasping aggregates are suffering”? They are as follows: the body (_rūpa_), experience (_vedanā_), perception (_saññā_), the will and other mental formations (_saṅkhāra_), and consciousnesses (_viññāna_). These are the five components of existence that are suffering.
+<span className="sutta-ref">DN 22</span> And what is meant by “in brief, the five grasping aggregates are suffering”? They are as follows: the body (_rūpa_), experience (_vedanā_), perception (_saññā_), the will and other mental formations (_saṅkhāra_), and consciousnesses (_viññāna_). These are the five components of existence that are suffering.
 
 And that is called the noble truth of suffering.
 
-<span class="sutta-ref">MN 44</span> “Is that fuel (_upādāna_) the same as these five components of existence, or is the fuel something apart from the five components of existence?”
+<span className="sutta-ref">MN 44</span> “Is that fuel (_upādāna_) the same as these five components of existence, or is the fuel something apart from the five components of existence?”
 
 “That fuel is neither the same as the five components of existence, nor is the fuel separate from the five components of existence. It is the desire and wanting that is part of these five components of existence that is the fuel that sustains them.”
 
-<span class="sutta-ref">SN 22.59</span> Any kind of body whatsoever, whether past, future, or present, one’s own or others’, gross or subtle, inferior or superior, far or near—this is the body component of existence. All bodies should be seen as they really are with correct wisdom thus: “This is not mine; this I am not; this is not a permanent essence (_attā_).”
+<span className="sutta-ref">SN 22.59</span> Any kind of body whatsoever, whether past, future, or present, one’s own or others’, gross or subtle, inferior or superior, far or near—this is the body component of existence. All bodies should be seen as they really are with correct wisdom thus: “This is not mine; this I am not; this is not a permanent essence (_attā_).”
 
 Any kind of experience whatsoever, whether past, future, or present, one’s own or others’, gross or subtle, inferior or superior, far or near—this is the experience component of existence. All experience should be seen as it really is with correct wisdom thus: “This is not mine; this I am not; this is not a permanent essence.”
 
@@ -48,30 +48,30 @@ Any kind of consciousness whatsoever, whether past, future, or present, one’s 
 
 ### The Body Component of Existence
 
-<span class="sutta-ref">MN 28</span> And what is the body component of existence? It is the four great elements and the physical qualities derived from the four great elements.
+<span className="sutta-ref">MN 28</span> And what is the body component of existence? It is the four great elements and the physical qualities derived from the four great elements.
 
 And what are the four great elements? They are the earth, water, fire and the air
 element.
 
 ### The Experience (_Vedanā_) Component of Existence
 
-<span class="sutta-ref">SN 36.1</span> There are these three types of experience. What three? Pleasant experience through any of the six senses. Unpleasant experience through any of the six senses. Neither-unpleasant-nor-pleasant (neutral) experience through any of the six senses. These are the three types of experience.
+<span className="sutta-ref">SN 36.1</span> There are these three types of experience. What three? Pleasant experience through any of the six senses. Unpleasant experience through any of the six senses. Neither-unpleasant-nor-pleasant (neutral) experience through any of the six senses. These are the three types of experience.
 
 ### The Perception Component of Existence
 
-<span class="sutta-ref">SN 22.56</span> And what is perception? There are these six kinds of perception: perception of sights, sounds, smells, tastes, touches, and perception of mental objects.
+<span className="sutta-ref">SN 22.56</span> And what is perception? There are these six kinds of perception: perception of sights, sounds, smells, tastes, touches, and perception of mental objects.
 
 ### The Will (and Other Mental Formations) Component of Existence
 
-<span class="sutta-ref">SN 22.56</span> And what is the will? There are these six kinds of volition: will regarding sights, will regarding sounds, will regarding smells, will regarding tastes, will regarding touches, will regarding mental objects.
+<span className="sutta-ref">SN 22.56</span> And what is the will? There are these six kinds of volition: will regarding sights, will regarding sounds, will regarding smells, will regarding tastes, will regarding touches, will regarding mental objects.
 
 ### The Consciousnesses Component of Existence
 
-<span class="sutta-ref">SN 22.56</span> And what are consciousnesses? There are these six kinds of consciousnesses: sight-consciousness, hearing-consciousness, smell-consciousness, taste-consciousness, body-consciousness, and mind-consciousness.
+<span className="sutta-ref">SN 22.56</span> And what are consciousnesses? There are these six kinds of consciousnesses: sight-consciousness, hearing-consciousness, smell-consciousness, taste-consciousness, body-consciousness, and mind-consciousness.
 
 #### Dependent Origination of Consciousnesses
 
-<span class="sutta-ref">MN 28</span> If the sense of knowing is intact but no mind-objects (_dhammā_) come into its range, then there is no manifestation of mind consciousness.
+<span className="sutta-ref">MN 28</span> If the sense of knowing is intact but no mind-objects (_dhammā_) come into its range, then there is no manifestation of mind consciousness.
 
 If the sense of knowing is intact, mind-objects come into its range, but there’s no conscious engagement; then there’s no manifestation of mind-consciousness.
 
@@ -85,23 +85,23 @@ Whatsoever there is of “form” (_rūpa_), this belongs to the form component 
 
 #### _Saṅkhārā_
 
-<span class="sutta-ref">SN 22.56 + 57</span> What is the _saṅkhārā_ component of existence? The definition of _saṅkhārā_ is “the six types of will” (_cetanā-kāya_): will involved with the objects of the six senses.
+<span className="sutta-ref">SN 22.56 + 57</span> What is the _saṅkhārā_ component of existence? The definition of _saṅkhārā_ is “the six types of will” (_cetanā-kāya_): will involved with the objects of the six senses.
 
 #### Dependency of Consciousnesses
 
-<span class="sutta-ref">SN 22.53</span> Though someone might say: “Apart from the form, apart from experience (_vedanā_), apart from perception, apart from will, I will make known the coming and going of consciousnesses, their passing away and rebirth, their growth, increase, and expansion”—that is impossible.
+<span className="sutta-ref">SN 22.53</span> Though someone might say: “Apart from the form, apart from experience (_vedanā_), apart from perception, apart from will, I will make known the coming and going of consciousnesses, their passing away and rebirth, their growth, increase, and expansion”—that is impossible.
 
-<span class="sutta-ref">SN 12.67</span> \[Venerable Sāriputta:] Just as two sheaves of reeds might stand leaning against each other, so too, with the objects of consciousnesses (_nāma-rūpa_) as a condition, consciousnesses come to be; with consciousnesses as condition, the objects of consciousnesses come to be…
+<span className="sutta-ref">SN 12.67</span> \[Venerable Sāriputta:] Just as two sheaves of reeds might stand leaning against each other, so too, with the objects of consciousnesses (_nāma-rūpa_) as a condition, consciousnesses come to be; with consciousnesses as condition, the objects of consciousnesses come to be…
 
 If one were to remove one of those sheaves of reeds, the other would fall. So too, with the cessation of consciousnesses, the objects of consciousnesses cease to exist; with the cessation of the objects of consciousnesses, consciousnesses cease to exist.
 
 ### The Three Characteristics of Existence
 
-<span class="sutta-ref">AN 3.136</span> All phenomena that arise from a cause do not persist (_anicca_)…
+<span className="sutta-ref">AN 3.136</span> All phenomena that arise from a cause do not persist (_anicca_)…
 All phenomena that arise from a cause are suffering …
 All phenomena are without a permanent essence.
 
-<span class="sutta-ref">SN 22.59</span> “What do you think: does the body persist or disintegrate?”<br />
+<span className="sutta-ref">SN 22.59</span> “What do you think: does the body persist or disintegrate?”<br />
 “It disintegrates, venerable sir.”<br />
 “Is what disintegrates suffering or happiness?”<br />
 “Suffering, sir.”<br />
@@ -120,7 +120,7 @@ or changing?”<br />
 
 ### The _Anattā_ Doctrine
 
-<span class="sutta-ref">SN 22.95</span> Suppose that this river Ganges was carrying along a great lump of foam. A person with good sight would inspect and carefully investigate it, and it would appear to them to be void, hollow, and empty. For what solidity could one find in a mere lump of foam?
+<span className="sutta-ref">SN 22.95</span> Suppose that this river Ganges was carrying along a great lump of foam. A person with good sight would inspect and carefully investigate it, and it would appear to them to be void, hollow, and empty. For what solidity could one find in a mere lump of foam?
 
 So too, whatever kind of form (body) there is, whether past, future, or present, one’s own or others’, gross or subtle, inferior or superior, far or near: you inspect and carefully investigate it, and it would appear to you to be void, empty,
 insubstantial. For what solidity could there be in form?
@@ -145,13 +145,13 @@ One who seeks pleasure in form seeks only irritation. One who seeks irritation, 
 
 One who seeks gratification in experiences seeks only disappointment. One who seeks disappointment, I say, is not freed from suffering.
 
-<span class="sutta-ref">SN 22.29</span> One who seeks reality in perceptions seeks only illusions. One who seeks for illusions, I say, is not freed from suffering.
+<span className="sutta-ref">SN 22.29</span> One who seeks reality in perceptions seeks only illusions. One who seeks for illusions, I say, is not freed from suffering.
 
 One who seeks contentment in the will seeks only frustration. One who seeks frustration, I say, is not freed from suffering.
 
 One who seeks eternity in consciousnesses seeks only for the affliction of more rebirth. One who seeks for rebirth, I say, is not freed from suffering.
 
-<span class="sutta-ref">Dhp 146-148</span> Why this laughter, why this joy, when it’s ever burning?<br />
+<span className="sutta-ref">Dhp 146-148</span> Why this laughter, why this joy, when it’s ever burning?<br />
 Shrouded all about in gloom won’t you look for the light?<br />
 Look at this attention-demanding body:<br />
 A mass of irritations, constantly needing support, prone to illness, with nothing stable or lasting.<br />
@@ -160,7 +160,7 @@ When life ends in death, this disappointing body dissolves.<br />
 
 ### The Three Warnings
 
-<span class="sutta-ref">AN 3.36</span> But, my friend, didn’t you ever see a man or a woman, eighty years of age or more, frail, sickly, struggling to walk even with a walking frame, with many a complaint, strength gone, with false teeth, with white hair or a wig, with wrinkled skin and blotched limbs, and forgetful?
+<span className="sutta-ref">AN 3.36</span> But, my friend, didn’t you ever see a man or a woman, eighty years of age or more, frail, sickly, struggling to walk even with a walking frame, with many a complaint, strength gone, with false teeth, with white hair or a wig, with wrinkled skin and blotched limbs, and forgetful?
 
 My friend, didn’t it occur to you, an intelligent and mature person: “I too am subject to old age; I am not exempt from old age. Let me now do good kamma while I still can by body, speech, and mind?”
 
@@ -174,7 +174,7 @@ My friend, didn’t it occur to you, an intelligent and mature person: “I too 
 
 ### _Saṁsāra_
 
-<span class="sutta-ref">SN 15.3</span> This _saṁsāra_ is without a beginning. A first point is not found of beings roaming and wandering on, blinded by delusion and addicted to wanting.
+<span className="sutta-ref">SN 15.3</span> This _saṁsāra_ is without a beginning. A first point is not found of beings roaming and wandering on, blinded by delusion and addicted to wanting.
 
 What do you think, which is more: the stream of tears that you have wept as you roamed and wandered on through your many lives, weeping and wailing because of enduring the disagreeable and not getting what you want—this, or the water in all the great oceans?
 
@@ -186,6 +186,6 @@ For a long time you have been arrested as murderers, burglars, and adulterers, a
 
 For what reason? Because this _saṁsāra_ is without a beginning. A first point is not found of beings who, blinded by delusion and addicted to wanting, are journeying through this round of rebirth and death.
 
-<span class="sutta-ref">SN 15.10</span> Even just one person, wandering on through their many lives, blinded by delusion and addicted to wanting, would leave behind a stack of bones, a heap of bones, a mass of bones as large as the Himalayas—if there were someone to collect them all, what was collected would not perish. For what reason? Because this _saṁsāra_ is without a beginning.
+<span className="sutta-ref">SN 15.10</span> Even just one person, wandering on through their many lives, blinded by delusion and addicted to wanting, would leave behind a stack of bones, a heap of bones, a mass of bones as large as the Himalayas—if there were someone to collect them all, what was collected would not perish. For what reason? Because this _saṁsāra_ is without a beginning.
 
-<span class="sutta-ref">SN 15.1</span> For such a long time you have experienced suffering, agony, and disaster, and swelled the cemeteries with the bones from your many lives. It is enough to experience revulsion (_nibbidā_) towards all volitional formations (the will), enough to let go of the cause of more birth, enough to be liberated from _saṁsāra_.
+<span className="sutta-ref">SN 15.1</span> For such a long time you have experienced suffering, agony, and disaster, and swelled the cemeteries with the bones from your many lives. It is enough to experience revulsion (_nibbidā_) towards all volitional formations (the will), enough to let go of the cause of more birth, enough to be liberated from _saṁsāra_.

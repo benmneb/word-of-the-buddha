@@ -6,12 +6,12 @@ For almost 25 years, I have been using _The Word of The Buddha_ as a textbook to
 
 Unfortunately, there is a problem. Although the Dhamma is timeless, the usual presentation has become as if overgrown by impenetrable thickets of tradition. I have received countless well-intended criticisms that all the repetitions are discouraging, the similes are so archaic as to be obtuse, and some revered renderings of key Buddhist terms are rusted shut. The exegesis is well past its use-by-date.
 
-<div class="text-center">
+<div className="text-center">
 _Rather turn on the electric light, than complain about darkness._<br />
 **Ancient Chinese saying, updated.**
 </div>
 
-This little book, then, is not another translation. It is a new type of translation — not so much for detached scholars but for those who immerse their whole lives in these teachings. I have followed Professor A. K. Warder’s insightful advice: _“It is the sentences which are the natural units of discourse and which are the minimum units that have precise, fully articulated meaning. For purposes of study we have to assign approximate meanings to words and list these in vocabularies, but these generalised meanings of words are extremely vague, whereas sentences have exact meanings. In translation one may find close equivalents for sentences, whilst it is often impossible to give close equivalents for words.”_ (<span class="font-small-caps">Introduction to Pāli, p. 2</span>)
+This little book, then, is not another translation. It is a new type of translation — not so much for detached scholars but for those who immerse their whole lives in these teachings. I have followed Professor A. K. Warder’s insightful advice: _“It is the sentences which are the natural units of discourse and which are the minimum units that have precise, fully articulated meaning. For purposes of study we have to assign approximate meanings to words and list these in vocabularies, but these generalised meanings of words are extremely vague, whereas sentences have exact meanings. In translation one may find close equivalents for sentences, whilst it is often impossible to give close equivalents for words.”_ (<span className="font-small-caps">Introduction to Pāli, p. 2</span>)
 
 Thus, in order to convey the meaning, I have chosen to translate sentence-for-sentence and not word-for-word. A word has no intrinsic essence outside of a sentence.
 
@@ -21,11 +21,11 @@ For example, for many years I have consistently protested against the traditiona
 
 This is not the final version. Translations will always be a work in progress. I only hope that this version will elucidate, inspire and challenge. Students have remarked on listening to classes based on earlier drafts of this book that it is “like listening to the teachings in the suttas for the first time—their power is frightening and, at the same time, compelling.” As for improvements, I welcome better sentence-by-sentence translations but only when they arise from someone immersed in these teachings, living as a renunciant for the cessation of all ego or any concept of a permanent essence within or beyond the five _khandhas_.
 
-<div class="text-center">
+<div className="text-center">
 _Sabbe dhammā nālaṃ abhinivesāyā (MN 37)_<br />
 **There is nothing worth keeping.**
 </div>
 
-<div class="text-right">
+<div className="text-right">
 **Ajahn Brahm, 2024**
 </div>

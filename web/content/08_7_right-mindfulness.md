@@ -8,7 +8,7 @@ What, now, is right mindfulness?
 
 ## The Four Focuses of Mindfulness
 
-<span class="sutta-ref">MN 10</span> The four focuses of mindfulness lead in one direction only, to the purification of beings, to going beyond sadness and crying, to the disappearance of physical and mental suffering, for the attainment of the true way, for the realisation of _nibbāna_. What are the four?
+<span className="sutta-ref">MN 10</span> The four focuses of mindfulness lead in one direction only, to the purification of beings, to going beyond sadness and crying, to the disappearance of physical and mental suffering, for the attainment of the true way, for the realisation of _nibbāna_. What are the four?
 
 1. Having restrained the five hindrances, you abide aware of the body (_rūpa_), energised, knowing the purpose of what you are doing, and mindful.
 1. Having restrained the five hindrances, you abide aware of experience (_vedanā_), energised, knowing the purpose of what you are doing, and mindful.
@@ -91,7 +91,7 @@ That is another way that you are mindful of the body.
 
 ### Benefits of Mindfulness of the Body
 
-<span class="sutta-ref">MN 119</span> When mindfulness of the body has been repeatedly practised, and developed, these ten benefits may be expected.
+<span className="sutta-ref">MN 119</span> When mindfulness of the body has been repeatedly practised, and developed, these ten benefits may be expected.
 
 1. You overcome delight and discontent.
 1. You overcome fear and dread.
@@ -106,7 +106,7 @@ That is another way that you are mindful of the body.
 
 ## Arising and Passing Away (Rise and Fall)
 
-<span class="sutta-ref">SN 47.42</span> I will teach you the origination (_samudaya_) and the passing away (_atthaṅgama_) of the four focuses of mindfulness.
+<span className="sutta-ref">SN 47.42</span> I will teach you the origination (_samudaya_) and the passing away (_atthaṅgama_) of the four focuses of mindfulness.
 
 1. Supported by the four nutriments, there is the origination and continuance of the body. With the cessation of the four nutriments, the body ceases. \[The four nutriments are: food, six sense contacts (_phassa_), will and consciousnesses.]
 1. Supported by the six sense contacts (_phassa_), there is the origination of experience. With the cessation of six sense contacts, experience ceases.
@@ -115,7 +115,7 @@ That is another way that you are mindful of the body.
 
 ## Mindfulness of Experience
 
-<span class="sutta-ref">MN 10</span> How are you mindful of experience (_vedanā_)?
+<span className="sutta-ref">MN 10</span> How are you mindful of experience (_vedanā_)?
 
 When feeling a pleasant experience, you are mindful that you feel a pleasant experience; when feeling an unpleasant experience, you are mindful that you feel an unpleasant experience; and when feeling a neutral experience, you are mindful that you feel a neutral experience.
 
@@ -161,7 +161,7 @@ You are mindful of mind-objects in terms of the five hindrances.
 1. When there was restlessness and remorse in you …
 1. When there was doubt in you, you are mindful that there was such doubt. When there is no such doubt, you are mindful that there is no doubt. You also understand how such doubt arises, how to let go of doubt, and how doubt doesn’t arise again.
 
-<span class="sutta-ref">MN 39</span> Suppose you took out a loan and your business was successful. Then you repaid that loan and there was enough left over for your own enjoyment and for that of your family. As a result, you would be glad and full of joy.
+<span className="sutta-ref">MN 39</span> Suppose you took out a loan and your business was successful. Then you repaid that loan and there was enough left over for your own enjoyment and for that of your family. As a result, you would be glad and full of joy.
 
 Or suppose you were very ill, you couldn’t eat or sleep, and had no strength. Later, however, you recovered, could eat and sleep again, and you regained your strength. As a result, you would be glad and full of joy.
 
@@ -175,7 +175,7 @@ So too, when these five hindrances were present, you look back on them as: a deb
 
 ### The Seven Awakening Factors
 
-<span class="sutta-ref">MN 10</span> Or, you are mindful of mind-objects in terms of the seven awakening factors.
+<span className="sutta-ref">MN 10</span> Or, you are mindful of mind-objects in terms of the seven awakening factors.
 
 1. When the awakening factor of mindfulness is present in you, you understand that it is present. But when the awakening factor of mindfulness was not present in you, you understand that it was absent. You also understand how there comes to be the arising of the absent awakening factor of mindfulness, and how it comes to fulfilment by development.
 1. When the awakening factor of exploring the Dhamma is present in you …
@@ -227,7 +227,7 @@ So it was with reference to this that it was said: The four focuses of mindfulne
 
 ## _Nibbāna_ through _Ānāpānassati_
 
-<span class="sutta-ref">MN 118</span> When mindfulness of breathing is developed and cultivated, it is of great fruit and great benefit. When mindfulness of breathing is developed and cultivated, it completes the four focuses of mindfulness. When the four focuses of mindfulness are developed and cultivated, they complete the seven awakening factors. When the seven awakening factors are developed and cultivated, they complete true knowledge and deliverance (awakening).
+<span className="sutta-ref">MN 118</span> When mindfulness of breathing is developed and cultivated, it is of great fruit and great benefit. When mindfulness of breathing is developed and cultivated, it completes the four focuses of mindfulness. When the four focuses of mindfulness are developed and cultivated, they complete the seven awakening factors. When the seven awakening factors are developed and cultivated, they complete true knowledge and deliverance (awakening).
 
 ### Mindfulness of Breathing Completes the Four Focuses of Mindfulness
 
