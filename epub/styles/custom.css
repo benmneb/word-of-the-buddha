@@ -121,3 +121,30 @@ ol:not(div.alpha-numeric-list ol) li::before {
 .alpha-numeric-list ol > li > ol > li:nth-child(3n) {
   margin-bottom: 1rem;
 }
+
+/* Definition lists, on Abbreviations and Glossary pages */
+dl.abbreviations {
+  display: grid;
+  grid-gap: 4px 16px;
+  grid-template-columns: max-content;
+}
+
+dl.abbreviations dd {
+  margin: 0;
+  margin-bottom: 1rem;
+  grid-column-start: 2;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+dd p:first-of-type {
+  margin-top: 0;
+}
