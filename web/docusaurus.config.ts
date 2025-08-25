@@ -18,7 +18,6 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Set useful metadata like html lang.
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -53,15 +52,6 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    // announcementBar: {
-    //   id: 'id1',
-    //   content: 'New updates released',
-    //   backgroundColor: 'orange',
-    //   textColor: '#091E42',
-    //   isCloseable: true,
-    // },
-    // TODO: Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       hideOnScroll: true,
       title: 'The Word of the Buddha',
@@ -78,16 +68,18 @@ const config: Config = {
         },
         {
           type: 'dropdown',
-          label: 'Download',
+          label: '📚',
           position: 'right',
           items: [
             {
-              label: 'EPUB',
-              href: 'https://archive.org', // TODO
+              label: 'Download EPUB',
+              // TODO: Update to internet archive link when available
+              href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true',
             },
             {
-              label: 'PDF',
-              href: 'https://archive.org', // TODO
+              label: 'Download PDF',
+              // TODO: Update to internet archive link when available
+              href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true',
             },
           ],
         },

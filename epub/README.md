@@ -1,4 +1,4 @@
-# Word of the Buddha
+# The Word of the Buddha
 
 EPUB version.
 
@@ -9,7 +9,7 @@ Install [pandoc](https://pandoc.org/installing.html).
 From the `/epub` directory, run:
 
 ```bash
-SOURCE_DATE_EPOCH=1756104633 pandoc content/*.md -o build/WOTB2.2.epub --toc --toc-depth=4 --metadat
+SOURCE_DATE_EPOCH=1756104633 pandoc content/*.md -o build/WOTB2.epub --toc --toc-depth=4 --metadat
 a-file=metadata.yml --epub-title-page=false
 ```
 
