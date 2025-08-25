@@ -43,7 +43,7 @@ subject: # https://ns.editeur.org/thema/en/QRF
 lang: en
 format: application/epub+zip
 type: Text # DCMI URI: http://purl.org/dc/dcmitype/Text
-cover-image: images/cover-sm.png # Pandoc recommends <1000px max width/height
+cover-image: images/cover-sm.png
 css:
   - styles/pandoc-defaults.css
   - styles/custom.css
