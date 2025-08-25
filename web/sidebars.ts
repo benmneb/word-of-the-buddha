@@ -8,7 +8,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
  */
 const sidebars: SidebarsConfig = {
   contents: [
-    // { type: 'doc', id: 'copyright-page', className: 'sidebar-item-faded' },
+    { type: 'doc', id: 'copyright-page', className: 'sidebar-item-faded' },
     { type: 'doc', id: 'forward', className: 'sidebar-item-faded' },
     {
       type: 'doc',

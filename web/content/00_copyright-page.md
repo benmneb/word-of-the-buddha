@@ -1,3 +1,8 @@
+---
+slug: 'copyright'
+title: 'Copyright'
+---
+
 Copyright © 2025 Ajahn Brahmavaṃso
 
 All rights reserved
@@ -17,18 +22,3 @@ Bodhinyana International Foundation
 Designed for EPUB & web at Bodhinyana Great Southern by benmneb
 
 [www.wordofthebuddha.com](https://www.wordofthebuddha.com)
-
-<div class="text-center">
-The Word of the Buddha
-
-An Outline of the Teachings of the Buddha<br />
-in the Words of the Pāli Canon
-
-Second Edition
-
-Compilation based on Ñāṇatiloka Mahāthera’s booklet<br />
-_The Word of the Buddha_
-
-Updated with translations from Bhikkhu Bodhi<br />
-Edited by Ajahn Brahm
-</div>
