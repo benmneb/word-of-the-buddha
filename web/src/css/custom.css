@@ -127,9 +127,17 @@ nav.menu {
   }
 
   h1 {
-    text-wrap: balance;
     text-align: center;
     margin: 4rem 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
   }
 }
 
