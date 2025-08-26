@@ -24,19 +24,21 @@ export default function Home(): ReactNode {
 
       <main className="home">
         <figure>
-          <img
-            src="/img/cover-xs.webp" // LQIP
-            srcSet="/img/cover-sm.webp 480w,
+          <div className="book">
+            <img
+              src="/img/cover-xs.webp" // LQIP
+              srcSet="/img/cover-sm.webp 480w,
                     /img/cover-md.webp 505w,
                     /img/cover-lg.webp 732w,
                     /img/cover-xl.webp 1050w"
-            sizes="(max-width: 580px) 90vw,
+              sizes="(max-width: 580px) 90vw,
                    (max-width: 996px) 505px,
                    (max-width: 1080px) 732px,
                    1050px"
-            alt="The Word of the Buddha by Ajahn Brahm. Cover designed in Hong Kong by Pressroom Printer and Designer Ltd"
-            onLoad={(e) => (e.currentTarget.style.filter = 'blur(0)')}
-          />
+              alt="The Word of the Buddha by Ajahn Brahm. Cover designed in Hong Kong by Pressroom Printer and Designer Ltd"
+              onLoad={(e) => (e.currentTarget.style.filter = 'blur(0)')}
+            />
+          </div>
         </figure>
         <section>
           <hgroup>
