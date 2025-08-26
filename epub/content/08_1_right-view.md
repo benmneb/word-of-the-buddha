@@ -134,7 +134,7 @@ That is why it is not acceptable for anyone to say, “The mind is the permanent
 
 If anyone says, “Mind-objects are the permanent essence” … “Mind-consciousness is the permanent essence” … “Experience is the permanent essence” … “Wanting is the permanent essence” … These things come and go, which is why it is not reasonable for anyone to say, “Mind-objects; mind-consciousness; experience or wanting is the permanent essence.”
 
-Thus the mind is not the permanent essence; mind-objects, mind-consciousness, experience and wanting—all these are not a permanent essence.
+Thus the mind is not the permanent essence; mind-objects, mind-consciousness, mind-contact, experience and wanting—all these are not a permanent essence.
 
 <span class="sutta-ref">SN 12.61</span> It would be better for the uninstructed worldling to take as the permanent essence this body rather than the mind (_citta_). Why? Because this body lasts for up to a hundred years, or even longer.
 

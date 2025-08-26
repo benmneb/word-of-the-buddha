@@ -18,7 +18,7 @@ Page numbers below refer to pages in the second edition of the PDF.
     * Page 79: “asava” is not italicised three times. I pointed out this inconsistency in the print version and it was changed to be all non-italics… but this word is definitely as or less “commonly understood” than other italicised words, so should also be.
     * Page 102: Glossary, all of “(ālaya-rāma, ālaya-rata, ālaya-sammudita)” is now italicised.
     * Page 103: “SABBA-KĀYA-PATISAṀVEDĪ” explanation, “ānāpānassati” is not italicised, unlike all mentions earlier.
-* Page 48: “mind objects” is listed twice in the sentence “Thus the mind is not the permanent essence; mind-objects, mind-consciousness, mind-objects, experience and wanting—all these are not a permanent essence.” (This was carried through from the first edition.)
+* Page 48: “mind objects” is listed twice in the sentence “Thus the mind is not the permanent essence; mind-objects, mind-consciousness, mind-objects, experience and wanting—all these are not a permanent essence.” (This was carried through from the first edition.) The second instance should be “mind-contact”.
 * Page 52: No line-break or even white-space between Khemeka’s reply and the “\[Elder bhikkhus:]” next question. It now has a paragraph break.
 * Page 71: “The Seven Awakening Factors” section returns to content from MN 10, but without the reference for it, the last reference is still from the five hindrance similes at MN 39.
 * Then on Page 73: “Summary of Satipaṭṭhāna” returns the correct MN 10 reference, just way too late, this reference has been removed after the correction on page 71.
