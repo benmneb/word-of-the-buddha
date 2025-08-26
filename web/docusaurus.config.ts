@@ -59,7 +59,6 @@ const config: Config = {
         alt: 'Word of the Buddha',
         src: 'icons/icon-192x192.webp',
         style: { borderRadius: '0.2rem' },
-        // src: 'img/cover-xs.webp',
       },
       items: [
         {

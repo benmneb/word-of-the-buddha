@@ -63,8 +63,22 @@ export default function Home(): ReactNode {
               Read online
             </Link>
             <div className="button-group button-group--block">
-              <Link className="button button--secondary">Get EPUB</Link>
-              <Link className="button button--secondary">Get PDF</Link>
+              {/* TODO: Update to internet archive link when available*/}
+              <Link
+                className="button button--secondary"
+                to="https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true"
+                target="_blank"
+              >
+                Get EPUB
+              </Link>
+              {/* TODO: Update to internet archive link when available*/}
+              <Link
+                className="button button--secondary"
+                to="https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true"
+                target="_blank"
+              >
+                Get PDF
+              </Link>
             </div>
           </nav>
         </section>
