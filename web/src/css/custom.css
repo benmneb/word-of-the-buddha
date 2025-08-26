@@ -273,6 +273,7 @@ nav.menu {
 
   hgroup {
     text-align: center;
+    text-wrap: balance;
   }
 
   nav {
