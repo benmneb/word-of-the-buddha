@@ -118,11 +118,11 @@ const config: Config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: process.env.NODE_ENV === 'development',
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
           'queryString',
+          'saveData',
         ],
         pwaHead: [
           {
@@ -144,6 +144,11 @@ const config: Config = {
           {
             tagName: 'meta',
             name: 'mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
             content: 'yes',
           },
           {
