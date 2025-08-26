@@ -10,4 +10,4 @@ Monorepo for digital editions of Word of the Buddha.
 
 The code here is AGPL. The actual book and it's content (`/pdf` and `*/content` directories) are Copyright © Ajahn Brahmavaṃso.
 
-See [the license file](/LICENSE.md) for details.
+See [the license file](LICENSE.md) for details.
