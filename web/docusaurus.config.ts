@@ -57,7 +57,9 @@ const config: Config = {
       title: 'The Word of the Buddha',
       logo: {
         alt: 'Word of the Buddha',
-        src: 'icons/favicon.svg',
+        src: 'icons/icon-192x192.webp',
+        style: { borderRadius: '0.2rem' },
+        // src: 'img/cover-xs.webp',
       },
       items: [
         {
