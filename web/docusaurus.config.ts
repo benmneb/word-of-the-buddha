@@ -5,7 +5,7 @@ const config: Config = {
   title: 'The Word of the Buddha | by Ajahn Brahm',
   tagline:
     'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
-  favicon: 'icons/favicon.svg',
+  favicon: 'icons/favicon.ico',
 
   future: {
     v4: true, // https://docusaurus.io/docs/api/docusaurus-config#future
