@@ -14,10 +14,7 @@ export default function Home(): ReactNode {
                   /img/cover-md.webp 505w,
                   /img/cover-lg.webp 732w,
                   /img/cover-xl.webp 1050w"
-          imageSizes="(max-width: 580px) 90vw,
-                 (max-width: 996px) 505px,
-                 (max-width: 1080px) 732px,
-                 1050px"
+          imageSizes="327px"
           fetchPriority="high"
         />
       </Head>
@@ -31,10 +28,7 @@ export default function Home(): ReactNode {
                     /img/cover-md.webp 505w,
                     /img/cover-lg.webp 732w,
                     /img/cover-xl.webp 1050w"
-              sizes="(max-width: 580px) 90vw,
-                   (max-width: 996px) 505px,
-                   (max-width: 1080px) 732px,
-                   1050px"
+              sizes="327px"
               alt="The Word of the Buddha by Ajahn Brahm. Cover designed in Hong Kong by Pressroom Printer and Designer Ltd"
               onLoad={(e) => (e.currentTarget.style.filter = 'blur(0)')}
             />
