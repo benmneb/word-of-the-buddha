@@ -52,6 +52,18 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
+      },
+      {
+        property: 'og:description',
+        content:
+          'An Outline of the Teachings of the Buddha in the Words of the Pāli Canon',
+      },
+    ],
     navbar: {
       hideOnScroll: true,
       title: 'The Word of the Buddha',
