@@ -198,12 +198,7 @@ const config: Config = {
         ],
       },
     ],
-    [
-      'docusaurus-plugin-simple-analytics',
-      {
-        domain: 'wordofthebuddha.com',
-      },
-    ],
+    ['docusaurus-plugin-simple-analytics', {}],
   ],
 
   themes: [
