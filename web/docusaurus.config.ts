@@ -199,10 +199,9 @@ const config: Config = {
       },
     ],
     [
-      'vercel-analytics',
+      'docusaurus-plugin-simple-analytics',
       {
-        debug: true,
-        mode: 'auto',
+        domain: 'wordofthebuddha.com',
       },
     ],
   ],
