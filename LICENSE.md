@@ -12,6 +12,8 @@ Reproduction in any way for commercial gain is prohibited.
 
 # License for the Code
 
+Copyleft benmneb (ↄ) All wrongs reserved. [AGPL-3.0-or-later](https://www.gnu.org/licenses/agpl-3.0.txt).
+
 # GNU AFFERO GENERAL PUBLIC LICENSE
 
 Version 3, 19 November 2007

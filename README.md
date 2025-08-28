@@ -8,6 +8,6 @@ Monorepo for digital editions of Ajahn Brahm's translation of Word of the Buddha
 
 ## License
 
-The code here is AGPL. The actual book and it's content (`/pdf` and `*/content` directories) are Copyright © Ajahn Brahmavaṃso.
+The code here is AGPL-3.0-or-later. The actual book and it's content (`/pdf` and `*/content` directories) are Copyright © Ajahn Brahmavaṃso.
 
 See [the license file](LICENSE.md) for details.
