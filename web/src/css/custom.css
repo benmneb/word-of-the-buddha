@@ -126,7 +126,10 @@ nav.menu {
 
   p:not(dd p),
   dl,
-  ol:not(.alpha-numeric-list ol) {
+  ol:not(.alpha-numeric-list ol),
+  h4,
+  h5,
+  h6 {
     font-size: 120%;
   }
 
