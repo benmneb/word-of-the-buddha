@@ -115,7 +115,7 @@ const config: Config = {
       style: 'light',
       copyright: `
       <p>
-        Copyright © ${new Date().getFullYear()} Ajahn Brahmavaṃso.
+        Copyright © 2005 Ajahn Brahmavaṃso.
         All rights reserved.
         Permission to copy, reprint and distribute this publication is hereby given provided no changes are made to the content or layout.
         Reproduction in any way for commercial gain is prohibited.
