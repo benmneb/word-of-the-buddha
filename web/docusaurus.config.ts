@@ -39,7 +39,7 @@ const config: Config = {
         },
         sitemap: {
           lastmod: 'datetime',
-          changefreq: 'monthly',
+          changefreq: 'yearly',
           priority: 0.5,
         },
       } satisfies Preset.Options,
