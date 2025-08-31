@@ -77,7 +77,7 @@ const config: Config = {
           type: 'html',
           position: 'left',
           value:
-            '<small>by <em><a href="about-the-author">Ajahn Brahm</a></em></small>',
+            '<small>by <em><a href="/about-the-author">Ajahn Brahm</a></em></small>',
         },
         {
           type: 'dropdown',
