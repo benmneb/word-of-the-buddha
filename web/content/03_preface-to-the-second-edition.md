@@ -6,6 +6,8 @@ We have also changed the italicisation of Pāli words so that more commonly unde
 
 Some passages from the first edition have been lightly abridged. This is mainly to avoid unnecessary repetition of passages from the original text, in particular similes which can occur multiple times and are better left referenced at the beginning and end of a section.
 
+Upon printing the second addition, a few small errors have been further corrected. These corrections are present in the PDF and EPUB digital editions.
+
 We hope you enjoy this second edition of _The Word of the Buddha_.
 
 <div className="text-right">
