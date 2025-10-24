@@ -47,13 +47,8 @@ cover-image: images/cover-sm.png
 css:
   - styles/pandoc-defaults.css
   - styles/custom.css
-identifier:
-  # TODO: Get a unique ISBN? Check with Gerald & Co, this one's from the PDF
-  - scheme: ISBN-13
-    text: 978-0-646-71704-3
-source: # http://purl.org/dc/elements/1.1/source
-  - scheme: ISBN-13
-    text: 978-9552403644
+identifier: 'ISBN-13: 978-0-646-71704-3' # This is the same as the PDF
+source: 'ISBN-13: 978-9552403644' # Ñāṇatiloka's original | http://purl.org/dc/elements/1.1/source
 publisher: Bodhinyana International Foundation (BIF)
 rights: >
   © 2025 Ajahn Brahmavaṃso - Permission to copy, reprint and distribute this
