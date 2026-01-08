@@ -221,6 +221,8 @@ const config: Config = {
       },
     ],
   ],
+
+  clientModules: ['./src/scripts/saLinkEvents.ts'],
 }
 
 export default config
