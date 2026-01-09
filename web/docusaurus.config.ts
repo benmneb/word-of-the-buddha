@@ -81,16 +81,16 @@ const config: Config = {
         },
         {
           type: 'dropdown',
-          label: '📚',
+          label: 'Download',
           position: 'right',
           items: [
             {
-              label: 'Download EPUB',
+              label: 'EPUB',
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true',
               'data-sa-link-event': 'Download EPUB',
             },
             {
-              label: 'Download PDF',
+              label: 'PDF',
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true',
               'data-sa-link-event': 'Download PDF',
             },
