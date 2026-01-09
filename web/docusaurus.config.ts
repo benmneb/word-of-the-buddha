@@ -86,13 +86,13 @@ const config: Config = {
           items: [
             {
               label: 'Download EPUB',
-              // TODO: Update to internet archive link when available
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true',
+              'data-sa-link-event': 'Download EPUB',
             },
             {
               label: 'Download PDF',
-              // TODO: Update to internet archive link when available
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true',
+              'data-sa-link-event': 'Download PDF',
             },
           ],
         },
