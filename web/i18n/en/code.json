@@ -10,5 +10,9 @@
   "theme.SearchPage.noResultsText": {
     "message": "No results found",
     "description": "The paragraph for empty search result"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Options",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   }
 }
