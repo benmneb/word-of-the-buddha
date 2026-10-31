@@ -55,7 +55,7 @@ export default function Home(): ReactNode {
             </p>
           </hgroup>
           <nav>
-            <Link className="button button--primary button--lg" to="/forward" data-sa-link-event="Read online">
+            <Link className="button button--primary button--lg" to="/forward" onClick={() => window.umami?.track('Read online')}>
               Read online
             </Link>
             <div className="button-group button-group--block">
@@ -63,7 +63,7 @@ export default function Home(): ReactNode {
                 className="button button--secondary"
                 to="https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true"
                 target="_blank"
-                data-sa-link-event="Get ePUB"
+                data-umami-event="Get ePUB"
               >
                 Get EPUB
               </Link>
@@ -71,7 +71,7 @@ export default function Home(): ReactNode {
                 className="button button--secondary"
                 to="https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true"
                 target="_blank"
-                data-sa-link-event="Get PDF"
+                data-umami-event="Get PDF"
               >
                 Get PDF
               </Link>

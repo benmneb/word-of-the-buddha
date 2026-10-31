@@ -87,12 +87,12 @@ const config: Config = {
             {
               label: 'EPUB',
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/epub/build/WOTB2.epub?raw=true',
-              'data-sa-link-event': 'Download EPUB',
+              'data-umami-event': 'Download EPUB',
             },
             {
               label: 'PDF',
               href: 'https://github.com/benmneb/word-of-the-buddha/blob/main/pdf/WOTB2.pdf?raw=true',
-              'data-sa-link-event': 'Download PDF',
+              'data-umami-event': 'Download PDF',
             },
           ],
         },
@@ -198,7 +198,6 @@ const config: Config = {
         ],
       },
     ],
-    ['docusaurus-plugin-simple-analytics', {}],
   ],
 
   themes: [
@@ -222,7 +221,16 @@ const config: Config = {
     ],
   ],
 
-  clientModules: ['./src/scripts/saLinkEvents.ts'],
+  scripts: [
+    {
+      src: 'https://umamalytics.netlify.app/script.js',
+      defer: true,
+      'data-website-id': '4cafff9e-0b50-4df8-963f-b9b0660aa2dd',
+      'data-domains': 'wordofthebuddha.com,www.wordofthebuddha.com',
+      'data-exclude-search': 'true',
+      'data-exclude-hash': 'true',
+    },
+  ],
 }
 
 export default config
